@@ -1,0 +1,45 @@
+/*
+*  kernel modules
+*/
+
+prebuilt_kernel_modules {
+    name: "met",
+    srcs: ["met.ko"],
+    vendor: true,
+}
+
+prebuilt_kernel_modules {
+    name: "bt_drv",
+    srcs: ["bt_drv.ko"],
+    vendor: true,
+}
+
+prebuilt_kernel_modules {
+    name: "wmt_drv",
+    srcs: ["wmt_drv.ko"],
+    vendor: true,
+}
+
+prebuilt_kernel_modules {
+    name: "fmradio_drv",
+    srcs: ["fmradio_drv.ko"],
+    vendor: true,
+}
+
+prebuilt_kernel_modules {
+    name: "wmt_chrdev_wifi",
+    srcs: ["wmt_chrdev_wifi.ko"],
+    vendor: true,
+}
+
+prebuilt_kernel_modules {
+    name: "fpsgo",
+    srcs: ["fpsgo.ko"],
+    vendor: true,
+}
+
+prebuilt_kernel_modules {
+    name: "wlan_drv_gen4m",
+    srcs: ["wlan_drv_gen4m.ko"],
+    vendor: true,
+}

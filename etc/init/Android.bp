@@ -1,0 +1,637 @@
+prebuilt_etc {
+    name: "aee_aedv64.rc",
+    src: "aee_aedv64.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "aee_aedv.rc",
+    src: "aee_aedv.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "kpoc_charger.rc",
+    src: "kpoc_charger.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "android.hardware.audio@5.0-service-mediatek.rc",
+    src: "android.hardware.audio@5.0-service-mediatek.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "android.hardware.bluetooth@1.0-service-mediatek.rc",
+    src: "android.hardware.bluetooth@1.0-service-mediatek.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "android.hardware.gnss@2.0-service-mediatek.rc",
+    src: "android.hardware.gnss@2.0-service-mediatek.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "android.hardware.light@2.0-service-mediatek.rc",
+    src: "android.hardware.light@2.0-service-mediatek.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "android.hardware.secure_element@1.0-service-mediatek.rc",
+    src: "android.hardware.secure_element@1.0-service-mediatek.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "android.hardware.sensors@2.0-service-mediatek.rc",
+    src: "android.hardware.sensors@2.0-service-mediatek.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "android.hardware.usb@1.1-service-mediatek.rc",
+    src: "android.hardware.usb@1.1-service-mediatek.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "android.hardware.wifi@1.0-service-lazy-mediatek.rc",
+    src: "android.hardware.wifi@1.0-service-lazy-mediatek.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "atcid.rc",
+    src: "atcid.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "audiocmdservice_atci.rc",
+    src: "audiocmdservice_atci.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "bootperf.rc",
+    src: "bootperf.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "camerahalserver.rc",
+    src: "camerahalserver.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "em_hidl_user.rc",
+    src: "em_hidl_user.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fuelgauged_init.rc",
+    src: "fuelgauged_init.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fuelgauged_nvram_init.rc",
+    src: "fuelgauged_nvram_init.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "gsm0710muxd.rc",
+    src: "gsm0710muxd.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "hostapd.android.rc",
+    src: "hostapd.android.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "factory_init.connectivity.rc",
+    src: "hw/factory_init.connectivity.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "factory_init.project.rc",
+    src: "hw/factory_init.project.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "factory_init.rc",
+    src: "hw/factory_init.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.aee.rc",
+    src: "hw/init.aee.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.ago.rc",
+    src: "hw/init.ago.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.connectivity.rc",
+    src: "hw/init.connectivity.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.modem.rc",
+    src: "hw/init.modem.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt6765.rc",
+    src: "hw/init.mt6765.rc",
+    symlinks: ["init.mt6762.rc"],
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt6765.usb.rc",
+    src: "hw/init.mt6765.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.project.rc",
+    src: "hw/init.project.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sensor_1_0.rc",
+    src: "hw/init.sensor_1_0.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "meta_init.connectivity.rc",
+    src: "hw/meta_init.connectivity.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "meta_init.modem.rc",
+    src: "hw/meta_init.modem.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "meta_init.project.rc",
+    src: "hw/meta_init.project.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "meta_init.rc",
+    src: "hw/meta_init.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "multi_init.rc",
+    src: "hw/multi_init.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.arkfs.rc",
+    src: "init.arkfs.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.bip.rc",
+    src: "init.bip.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.bringup_monitor.rc",
+    src: "init.bringup_monitor.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.bt_drv.rc",
+    src: "init.bt_drv.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.cccifsd.rc",
+    src: "init.cccifsd.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.cccimdinit.rc",
+    src: "init.cccimdinit.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.cccirpcd.rc",
+    src: "init.cccirpcd.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init_connectivity.rc",
+    src: "init_connectivity.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.dynmem.rc",
+    src: "init.dynmem.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.fmradio_drv.rc",
+    src: "init.fmradio_drv.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.gps_drv.rc",
+    src: "init.gps_drv.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.iomamager.rc",
+    src: "init.iomamager.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.md_apps.rc",
+    src: "init.md_apps.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.pnpmgr_game_mode.rc",
+    src: "init.pnpmgr_game_mode.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.pnpmgr.rc",
+    src: "init.pnpmgr.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.thermalloadalgod.rc",
+    src: "init.thermalloadalgod.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.thermal_manager.rc",
+    src: "init.thermal_manager.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.thermal.rc",
+    src: "init.thermal.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.tranlog.rc",
+    src: "init.tranlog.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.volte_imcb.rc",
+    src: "init.volte_imcb.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.volte_imsm_93.rc",
+    src: "init.volte_imsm_93.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.volte_md_status.rc",
+    src: "init.volte_md_status.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.volte_stack.rc",
+    src: "init.volte_stack.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.volte_ua.rc",
+    src: "init.volte_ua.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.vtservice_hidl.rc",
+    src: "init.vtservice_hidl.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.wfca.rc",
+    src: "init.wfca.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.wlan_drv.rc",
+    src: "init.wlan_drv.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.wmt_drv.rc",
+    src: "init.wmt_drv.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.wod.rc",
+    src: "init.wod.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ipsec_mon.rc",
+    src: "ipsec_mon.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "lbs_hidl_service.rc",
+    src: "lbs_hidl_service.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "loghidlvendorservice.rc",
+    src: "loghidlvendorservice.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "md_monitor.rc",
+    src: "md_monitor.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "microtrust.bp_kmsetkey_ca.rc",
+    src: "microtrust.bp_kmsetkey_ca.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "microtrust.rc",
+    src: "microtrust.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "mtk_agpsd_p.rc",
+    src: "mtk_agpsd_p.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "mtkrild.rc",
+    src: "mtkrild.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "muxreport.rc",
+    src: "muxreport.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "netdagent.rc",
+    src: "netdagent.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "nvram_daemon.rc",
+    src: "nvram_daemon.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ppl_agent.rc",
+    src: "ppl_agent.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "res_monitor.rc",
+    src: "res_monitor.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "vendor.fpsensor.rc",
+    src: "vendor.fpsensor.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "vendor.mediatek.hardware.gpu@1.0-service.rc",
+    src: "vendor.mediatek.hardware.gpu@1.0-service.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc",
+    src: "vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "vendor.mediatek.hardware.log@1.0-service.rc",
+    src: "vendor.mediatek.hardware.log@1.0-service.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "vendor.mediatek.hardware.mms@1.5-service.rc",
+    src: "vendor.mediatek.hardware.mms@1.5-service.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc",
+    src: "vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "vendor.mediatek.hardware.mtkpower@1.0-init.rc",
+    src: "vendor.mediatek.hardware.mtkpower@1.0-init.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "vendor.mediatek.hardware.mtkpower@1.0-service.rc",
+    src: "vendor.mediatek.hardware.mtkpower@1.0-service.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "vendor.mediatek.hardware.nvram@1.1-sevice.rc",
+    src: "vendor.mediatek.hardware.nvram@1.1-sevice.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "vendor.mediatek.hardware.pq@2.2-service.rc",
+    src: "vendor.mediatek.hardware.pq@2.2-service.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "vendor.microtrust.hardware.capi@2.0-service.rc",
+    src: "vendor.microtrust.hardware.capi@2.0-service.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "vendor.sw.swfingerprint@1.0-service.rc",
+    src: "vendor.sw.swfingerprint@1.0-service.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "wlan_assistant.rc",
+    src: "wlan_assistant.rc",
+    sub_dir: "init",
+    vendor: true,
+}

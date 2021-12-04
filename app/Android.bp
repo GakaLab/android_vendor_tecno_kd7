@@ -1,0 +1,19 @@
+android_app_import {
+    name: "EmCamera",
+    apk: "EmCamera/EmCamera.apk",
+    dex_preopt: {
+        enabled: true,
+    },
+    default_dev_cert: true,
+    vendor: true,
+}
+
+android_app_import {
+    name: "SensorHub",
+    apk: "SensorHub/SensorHub.apk",
+    dex_preopt: {
+        enabled: true,
+    },
+    default_dev_cert: true,
+    vendor: true,
+}

@@ -1,0 +1,2086 @@
+/*
+*  Binaries
+*/
+
+cc_prebuilt_binary {
+    name: "aee_aedv",
+    compile_multilib: "32",
+    srcs: ["aee_aedv"],
+    proprietary: true,
+    allow_undefined_symbols: true,
+    shared_libs: [
+        "libaedv",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+        "libunwindstack",
+        "libz",
+    ],
+}
+
+cc_prebuilt_binary {
+    name: "aee_aedv64",
+    compile_multilib: "64",
+    srcs: ["aee_aedv64"],
+    proprietary: true,
+    allow_undefined_symbols: true,
+    shared_libs: [
+        "libaedv",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+        "libunwindstack",
+        "libz",
+    ],
+}
+
+cc_prebuilt_binary {
+    name: "aee_archivev",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libz",
+    ],
+    srcs: ["aee_archivev"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "aee_dumpstatev",
+    compile_multilib: "32",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+        "libz",
+    ],
+    srcs: ["aee_dumpstatev"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "aeev",
+    compile_multilib: "32",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libz",
+    ],
+    srcs: ["aeev"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "atcid",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libfile_op",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "libm",
+        "libmtkcutils",
+        "libmtkproperty",
+        "libmtkrillog",
+        "libmtkutils",
+        "libnvram",
+        "libwifitest",
+        "vendor.mediatek.hardware.atci@1.0",
+    ],
+    srcs: ["atcid"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "audiocmdservice_atci",
+    compile_multilib: "32",
+    shared_libs: [
+        "libaudiocompensationfilter_vendor",
+        "libaudiocomponentengine_vendor",
+        "libaudioprimarydevicehalifclient",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["audiocmdservice_atci"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "autobt",
+    compile_multilib: "64",
+    shared_libs: [
+        "libbluetooth_hw_test",
+        "libbluetooth_relayer",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    srcs: ["autobt"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "bip",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    srcs: ["bip"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "bp_kmsetkey_ca",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["bp_kmsetkey_ca"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "bringup_monitor",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    srcs: ["bringup_monitor"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "ccci_fsd",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware_legacy",
+        "liblog",
+        "libm",
+        "libnvram",
+        "libstorage_otp",
+    ],
+    srcs: ["ccci_fsd"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "ccci_mdinit",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libccci_util",
+        "libcutils",
+        "libdl",
+        "libhardware_legacy",
+        "liblog",
+        "libm",
+        "libnvram",
+        "libsysenv",
+    ],
+    srcs: ["ccci_mdinit"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "ccci_rpcd",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware_legacy",
+        "liblog",
+        "libm",
+    ],
+    srcs: ["ccci_rpcd"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "charon",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libcharon-ss",
+        "libhydra",
+        "libm",
+        "libstrongswan",
+    ],
+    srcs: ["charon"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "dconfig",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+        "libtinyxml2",
+    ],
+    srcs: ["dconfig"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "dtc_vendor",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libdl",
+        "libm",
+    ],
+    srcs: ["dtc_vendor"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "dynmemory",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libexpat",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["dynmemory"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "em_hidl",
+    compile_multilib: "64",
+    shared_libs: [
+        "libbase",
+        "libbinder",
+        "libbluetooth_relayer",
+        "libbluetoothem_mtk",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.engineermode@1.0",
+        "vendor.mediatek.hardware.engineermode@1.1",
+        "vendor.mediatek.hardware.engineermode@1.2",
+    ],
+    srcs: ["em_hidl"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "epdg_wod",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libdl",
+        "libm",
+        "libwo",
+    ],
+    srcs: ["epdg_wod"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "factory",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.bluetooth.a2dp@1.0",
+        "android.hardware.light@2.0",
+        "android.system.suspend@1.0",
+        "libalsautils",
+        "libaudio_param_parser-vnd",
+        "libaudiocustparam_vendor",
+        "libaudiotoolkit_vendor",
+        "libaudioutils",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcustom_nvram",
+        "libcutils",
+        "libdl",
+        "libfft_vendor",
+        "libfile_op",
+        "libhardware",
+        "libhardware_legacy",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "libhwm",
+        "libjpeg",
+        "libladder",
+        "liblog",
+        "libm",
+        "libmedia_helper",
+        "libminiui",
+        "libnvram",
+        "libtinyalsa",
+        "libtinycompress",
+        "libtinyxml",
+        "libutils",
+    ],
+    srcs: ["factory"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "fuelgauged",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["fuelgauged"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "fuelgauged_nvram",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libnvram",
+        "libutils",
+    ],
+    srcs: ["fuelgauged_nvram"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "gsm0710muxd",
+    compile_multilib: "32",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+        "libmtkcutils",
+        "libmtkproperty",
+        "libmtkrillog",
+    ],
+    srcs: ["gsm0710muxd"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "hostapd_cli",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    srcs: ["hostapd_cli"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "iomanager",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["iomanager"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "ipsec_mon",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libforkexecwrap",
+        "libifcutils_mtk",
+        "liblog",
+        "libm",
+    ],
+    srcs: ["ipsec_mon"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "jpegtool",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libjpeg-alpha_vendor",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["jpegtool"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "lbs_hidl_service",
+    compile_multilib: "64",
+    shared_libs: [
+        "lbs_hidl_service-impl",
+        "libbase",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.lbs@1.0",
+    ],
+    srcs: ["lbs_hidl_service"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "lib3a.ccu.dm",
+    compile_multilib: "",
+    srcs: ["lib3a.ccu.dm"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "lib3a.ccu.pm",
+    compile_multilib: "",
+    srcs: ["lib3a.ccu.pm"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "lmdd",
+    compile_multilib: "32",
+    srcs: ["lmdd"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "loghidlvendorservice",
+    compile_multilib: "64",
+    shared_libs: [
+        "libbase",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcrypto",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libnetutils",
+        "libsysutils",
+        "libutils",
+        "vendor.mediatek.hardware.log@1.0",
+    ],
+    srcs: ["loghidlvendorservice"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "md_monitor",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libccci_util",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libselinux",
+        "libutils",
+        "vendor.mediatek.hardware.mdmonitor@1.0",
+    ],
+    srcs: ["md_monitor"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "md_monitor_ctrl",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mdmonitor@1.0",
+    ],
+    srcs: ["md_monitor_ctrl"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "meta_tst",
+    compile_multilib: "64",
+    shared_libs: [
+        "libbase",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libccci_util",
+        "libcutils",
+        "libdl",
+        "libfile_op",
+        "libhardware",
+        "libhardware_legacy",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwm",
+        "libkmsetkey",
+        "liblog",
+        "libm",
+        "libnetutils",
+        "libnvram",
+        "libsysenv",
+        "libutils",
+        "vendor.mediatek.hardware.lbs@1.0",
+        "vendor.mediatek.hardware.nvram@1.1",
+    ],
+    srcs: ["meta_tst"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "misc_writer",
+    compile_multilib: "64",
+    shared_libs: [
+        "libbase",
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+    ],
+    srcs: ["misc_writer"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "mnld",
+    compile_multilib: "32",
+    shared_libs: [
+        "android.frameworks.sensorservice@1.0",
+        "android.hardware.sensors@1.0",
+        "libDR",
+        "libc",
+        "libc++",
+        "libcrypto",
+        "libcurl",
+        "libcutils",
+        "libdl",
+        "libgeofence",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libladder",
+        "liblog",
+        "libm",
+        "libmnl",
+        "libnvram",
+        "libsensorndkbridge",
+        "libssl",
+        "libutils",
+        "libz",
+    ],
+    srcs: ["mnld"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "mrdump_tool",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libsysenv",
+        "libz",
+    ],
+    srcs: ["mrdump_tool"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "kpoc_charger",
+    compile_multilib: "32",
+    check_elf_files: false,
+    shared_libs: [
+        "libcutils",
+        "libutils",
+        "libz",
+        "liblog",
+        "libui",
+        "libshowlogo",
+        "libhardware_legacy",
+        "android.hardware.light@2.0",
+        "android.hardware.health@2.0",
+        "libbase",
+        "libhidlbase",
+        "libhidltransport",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    srcs: ["kpoc_charger"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "mtk_agpsd",
+    compile_multilib: "32",
+    shared_libs: [
+        "libandroid_net",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["mtk_agpsd"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "mtkcam-debug",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.camera.provider@2.4",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["mtkcam-debug"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "muxreport",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+        "libmtkproperty",
+        "libmtkrillog",
+    ],
+    srcs: ["muxreport"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "netdagent",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libforkexecwrap",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "libifcutils_mtk",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.netdagent@1.0",
+    ],
+    srcs: ["netdagent"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "netdc",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.netdagent@1.0",
+    ],
+    srcs: ["netdc"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "nvram_daemon",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcustom_nvram",
+        "libcutils",
+        "libdl",
+        "libfile_op",
+        "libhwm",
+        "liblog",
+        "libm",
+        "libnvram",
+        "libnvram_daemon_callback",
+    ],
+    srcs: ["nvram_daemon"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "pnpmgr",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.power@1.0",
+        "android.hardware.power@1.1",
+        "android.hardware.power@1.2",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libexpat",
+        "libhidlbase",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libpnpmgr",
+        "libutils",
+        "vendor.mediatek.hardware.power@2.0",
+    ],
+    srcs: ["pnpmgr"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "ppl_agent",
+    compile_multilib: "64",
+    shared_libs: [
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libfile_op",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.pplagent@1.0",
+    ],
+    srcs: ["ppl_agent"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "res_monitor",
+    compile_multilib: "64",
+    shared_libs: [
+        "libbase",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libexpat",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libsqlite",
+        "libtranlog",
+        "libui",
+        "libutils",
+        "vendor.transsion.hardware.rm@1.0",
+    ],
+    srcs: ["res_monitor"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "rttv",
+    compile_multilib: "32",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libz",
+    ],
+    srcs: ["rttv"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "starter",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libhydra",
+        "libm",
+        "libstrongswan",
+    ],
+    srcs: ["starter"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "stp_dump3",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    srcs: ["stp_dump3"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "stroke",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libm",
+        "libstrongswan",
+    ],
+    srcs: ["stroke"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "teei_daemon",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libimsg_log",
+        "liblog",
+        "libm",
+    ],
+    srcs: ["teei_daemon"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "thermal",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libifcutils_mtk",
+        "liblog",
+        "libm",
+    ],
+    srcs: ["thermal"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "thermalloadalgod",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["thermalloadalgod"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "thermal_manager",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    srcs: ["thermal_manager"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "tranlog",
+    compile_multilib: "64",
+    shared_libs: [
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libexpat",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libminizip",
+        "libtranlog",
+        "libutils",
+        "vendor.transsion.hardware.tranlog@1.0",
+    ],
+    srcs: ["tranlog"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "transetenforce",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libcrypto",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libprocessgroup",
+        "libselinux",
+        "libz",
+    ],
+    srcs: ["transetenforce"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "volte_imcb",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libverno",
+        "libvolte_core_shr",
+        "libvolte_xdmc_shr",
+    ],
+    srcs: ["volte_imcb"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "volte_imsm_93",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libverno",
+    ],
+    srcs: ["volte_imsm_93"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "volte_md_status",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libverno",
+    ],
+    srcs: ["volte_md_status"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "volte_stack",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libdl",
+        "libipsec_ims_shr",
+        "liblog",
+        "libm",
+        "libverno",
+        "libvolte_core_shr",
+        "libvolte_xdmc_shr",
+    ],
+    srcs: ["volte_stack"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "volte_ua",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libverno",
+        "libvolte_core_shr",
+        "libvolte_xdmc_shr",
+    ],
+    srcs: ["volte_ua"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "wfca",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    srcs: ["wfca"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "wlan_assistant",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libnl",
+    ],
+    srcs: ["wlan_assistant"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "wmt_launcher",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    srcs: ["wmt_launcher"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "wmt_loader",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    srcs: ["wmt_loader"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "wpa_cli",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    srcs: ["wpa_cli"],
+    proprietary: true,
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.audio@5.0-service-mediatek",
+    compile_multilib: "32",
+    shared_libs: [
+        "android.hardware.audio.common@5.0",
+        "android.hardware.audio.effect@5.0",
+        "android.hardware.audio@5.0",
+        "android.hardware.bluetooth.a2dp@1.0",
+        "android.hardware.bluetooth.audio@2.0",
+        "android.hardware.broadcastradio@1.0",
+        "android.hardware.broadcastradio@1.1",
+        "android.hardware.soundtrigger@2.2",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.audio@5.1",
+    ],
+    srcs: ["hw/android.hardware.audio@5.0-service-mediatek"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.biometrics.fingerprint@2.1-service",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.biometrics.fingerprint@2.1",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["hw/android.hardware.biometrics.fingerprint@2.1-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.bluetooth@1.0-service-mediatek",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.bluetooth@1.0",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["hw/android.hardware.bluetooth@1.0-service-mediatek"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.drm@1.2-service.clearkey",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.drm@1.0",
+        "android.hardware.drm@1.1",
+        "android.hardware.drm@1.2",
+        "libbase",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcrypto",
+        "libdl",
+        "libhidlbase",
+        "libhidlmemory",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libprotobuf-cpp-lite",
+        "libutils",
+    ],
+    srcs: ["hw/android.hardware.drm@1.2-service.clearkey"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.drm@1.2-service.widevine",
+    compile_multilib: "32",
+    shared_libs: [
+        "android.hardware.drm@1.0",
+        "android.hardware.drm@1.1",
+        "android.hardware.drm@1.2",
+        "libbase",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "libwvhidl",
+    ],
+    srcs: ["hw/android.hardware.drm@1.2-service.widevine"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.gatekeeper@1.0-service",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.gatekeeper@1.0",
+        "libc",
+        "libc++",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["hw/android.hardware.gatekeeper@1.0-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.gnss@2.0-service-mediatek",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.gnss@2.0",
+        "libbase",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["hw/android.hardware.gnss@2.0-service-mediatek"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.graphics.allocator@2.0-service",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.graphics.allocator@2.0",
+        "libc",
+        "libc++",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["hw/android.hardware.graphics.allocator@2.0-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.graphics.composer@2.1-service",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.graphics.composer@2.1",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libsync",
+        "libutils",
+    ],
+    srcs: ["hw/android.hardware.graphics.composer@2.1-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.health@2.0-service",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.health@2.0",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["hw/android.hardware.health@2.0-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.keymaster@4.0-service.beanpod",
+    compile_multilib: "64",
+    srcs: ["hw/android.hardware.keymaster@4.0-service.beanpod"],
+    relative_install_path: "hw",
+    proprietary: true,
+    allow_undefined_symbols: true,
+    shared_libs: [
+        "android.hardware.keymaster@4.0",
+        "libTEECommon",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libkeymaster4",
+        "libkeymaster_messages",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.light@2.0-service-mediatek",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.light@2.0",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhardware_legacy",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["hw/android.hardware.light@2.0-service-mediatek"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.memtrack@1.0-service",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.memtrack@1.0",
+        "libbase",
+        "libc",
+        "libc++",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["hw/android.hardware.memtrack@1.0-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.secure_element@1.0-service-mediatek",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.radio@1.2",
+        "android.hardware.radio@1.4",
+        "android.hardware.secure_element@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mtkradioex@1.0",
+    ],
+    srcs: ["hw/android.hardware.secure_element@1.0-service-mediatek"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.sensors@2.0-service-mediatek",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.sensors@1.0",
+        "android.hardware.sensors@2.0",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libfmq",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libpower",
+        "libutils",
+    ],
+    srcs: ["hw/android.hardware.sensors@2.0-service-mediatek"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.thermal@1.0-service",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.thermal@1.0",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["hw/android.hardware.thermal@1.0-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.usb@1.1-service-mediatek",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.usb@1.0",
+        "android.hardware.usb@1.1",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["hw/android.hardware.usb@1.1-service-mediatek"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.vibrator@1.0-service",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.vibrator@1.0",
+        "libc",
+        "libc++",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    srcs: ["hw/android.hardware.vibrator@1.0-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.wifi@1.0-service-lazy-mediatek",
+    compile_multilib: "64",
+    srcs: ["hw/android.hardware.wifi@1.0-service-lazy-mediatek"],
+    proprietary: true,
+    relative_install_path: "hw",
+    check_elf_files: false,
+    shared_libs: [
+        "android.hardware.wifi@1.0",
+        "android.hardware.wifi@1.1",
+        "android.hardware.wifi@1.2",
+        "android.hardware.wifi@1.3",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libnl",
+        "libutils",
+        "libwifi-system-iface",
+    ],
+}
+
+cc_prebuilt_binary {
+    name: "camerahalserver",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.camera.provider@2.4",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libmtkcam_debugutils",
+        "libmtkcam_grallocutils",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+        "vendor.mediatek.hardware.camera.atms@1.0",
+        "vendor.mediatek.hardware.camera.bgservice@1.0",
+        "vendor.mediatek.hardware.camera.bgservice@1.1",
+        "vendor.mediatek.hardware.camera.frhandler@1.0",
+        "vendor.mediatek.hardware.camera.postproc@1.0",
+    ],
+    srcs: ["hw/camerahalserver"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "hostapd",
+    compile_multilib: "64",
+    srcs: ["hw/hostapd"],
+    proprietary: true,
+    relative_install_path: "hw",
+    allow_undefined_symbols: true,
+    shared_libs: [
+        "android.hardware.wifi.hostapd@1.0",
+        "android.hardware.wifi.hostapd@1.1",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcrypto",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libnl",
+        "libssl",
+        "libutils",
+    ],
+}
+
+cc_prebuilt_binary {
+    name: "mtkfusionrild",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkconfigutils",
+        "libmtkcutils",
+        "libmtkproperty",
+        "libmtkrillog",
+        "libmtkrilutils",
+        "librilfusion",
+        "libsysenv",
+    ],
+    srcs: ["hw/mtkfusionrild"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "power_legacy_test_v_1_0",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+        "vendor.mediatek.hardware.power@2.0",
+    ],
+    srcs: ["hw/power_legacy_test_v_1_0"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "power_native_test_v_1_0",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.power@1.0",
+        "android.hardware.power@1.1",
+        "android.hardware.power@1.2",
+        "android.hardware.power@1.3",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+    ],
+    srcs: ["hw/power_native_test_v_1_0"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "vendor.mediatek.hardware.gpu@1.0-service",
+    compile_multilib: "64",
+    shared_libs: [
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libged",
+        "libgralloc_extra",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libui",
+        "libutils",
+        "vendor.mediatek.hardware.gpu@1.0",
+    ],
+    srcs: ["hw/vendor.mediatek.hardware.gpu@1.0-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "vendor.mediatek.hardware.keymaster_attestation@1.1-service",
+    compile_multilib: "64",
+    shared_libs: [
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.keymaster_attestation@1.1",
+    ],
+    srcs: ["hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "vendor.mediatek.hardware.log@1.0-service",
+    compile_multilib: "64",
+    shared_libs: [
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libdumpstateutil",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.log@1.0",
+    ],
+    srcs: ["hw/vendor.mediatek.hardware.log@1.0-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "vendor.mediatek.hardware.mms@1.5-service",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mms@1.5",
+    ],
+    srcs: ["hw/vendor.mediatek.hardware.mms@1.5-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "vendor.mediatek.hardware.mtkcodecservice@1.1-service",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mtkcodecservice@1.1",
+    ],
+    srcs: ["hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "vendor.mediatek.hardware.mtkpower@1.0-service",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.power@1.0",
+        "android.hardware.power@1.1",
+        "android.hardware.power@1.2",
+        "android.hardware.power@1.3",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+        "vendor.mediatek.hardware.power@2.0",
+        "vendor.mediatek.hardware.power@2.1",
+    ],
+    srcs: ["hw/vendor.mediatek.hardware.mtkpower@1.0-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "vendor.mediatek.hardware.nvram@1.1-service",
+    compile_multilib: "64",
+    shared_libs: [
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libnvram",
+        "libutils",
+        "vendor.mediatek.hardware.nvram@1.1",
+    ],
+    srcs: ["hw/vendor.mediatek.hardware.nvram@1.1-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "vendor.mediatek.hardware.pq@2.2-service",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.pq@2.3",
+    ],
+    srcs: ["hw/vendor.mediatek.hardware.pq@2.2-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "vendor.microtrust.hardware.capi@2.0-service",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hidl.memory@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidlmemory",
+        "libhidltransport",
+        "libhwbinder",
+        "libimsg_log",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.microtrust.hardware.capi@2.0",
+    ],
+    srcs: ["hw/vendor.microtrust.hardware.capi@2.0-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "vendor.sw.swfingerprint@1.0-service",
+    compile_multilib: "32",
+    shared_libs: [
+        "libbase",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.sw.swfingerprint@1.0",
+    ],
+    srcs: ["hw/vendor.sw.swfingerprint@1.0-service"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "vtservice_hidl",
+    compile_multilib: "32",
+    shared_libs: [
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libfmq",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.videotelephony@1.0",
+    ],
+    srcs: ["hw/vtservice_hidl"],
+    proprietary: true,
+    relative_install_path: "hw",
+}
+
+cc_prebuilt_binary {
+    name: "wpa_supplicant",
+    compile_multilib: "64",
+    srcs: ["hw/wpa_supplicant"],
+    proprietary: true,
+    relative_install_path: "hw",
+    allow_undefined_symbols: true,
+    shared_libs: [
+        "android.hardware.wifi.supplicant@1.0",
+        "android.hardware.wifi.supplicant@1.1",
+        "android.hardware.wifi.supplicant@1.2",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcrypto",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "libkeystore-engine-wifi-hidl",
+        "libkeystore-wifi-hidl",
+        "liblog",
+        "libm",
+        "libnl",
+        "libssl",
+        "libutils",
+        "vendor.mediatek.hardware.wifi.supplicant@2.0",
+        "vendor.mediatek.hardware.wifi.supplicant@2.1",
+    ],
+}

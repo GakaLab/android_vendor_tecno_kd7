@@ -1,0 +1,1012 @@
+/*
+* ETC
+*/
+
+prebuilt_etc {
+    name: "vendor_ueventd",
+    src: "ueventd.rc",
+    filename: "ueventd.rc",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "partition_permission.sh",
+    src: "partition_permission.sh",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "a2dp_audio_policy_configuration.xml",
+    src: "a2dp_audio_policy_configuration.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "a2dp_in_audio_policy_configuration.xml",
+    src: "a2dp_in_audio_policy_configuration.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "aee-config",
+    src: "aee-config",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "agps_profiles_conf2.xml",
+    src: "agps_profiles_conf2.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "APDB_MT6765_S01__W1953",
+    src: "apdb/APDB_MT6765_S01__W1953",
+    sub_dir: "apdb",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "APDB_MT6765_S01__W1953_ENUM",
+    src: "apdb/APDB_MT6765_S01__W1953_ENUM",
+    sub_dir: "apdb",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "audio_device.xml",
+    src: "audio_device.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "audio_effects.xml",
+    src: "audio_effects.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "audio_em.xml",
+    src: "audio_em.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "audio_policy.conf",
+    src: "audio_policy.conf",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "audio_policy_configuration_bluetooth_legacy_hal.xml",
+    src: "audio_policy_configuration_bluetooth_legacy_hal.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "audio_policy_configuration.xml",
+    src: "audio_policy_configuration.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "audio_policy_volumes.xml",
+    src: "audio_policy_volumes.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "aurisys_config.xml",
+    src: "aurisys_config.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "bluetooth_audio_policy_configuration.xml",
+    src: "bluetooth_audio_policy_configuration.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "default_volume_tables.xml",
+    src: "default_volume_tables.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "DSM_config.xml",
+    src: "DSM_config.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "DSM.xml",
+    src: "DSM.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_250.xml",
+    src: "ecc_list_250.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_255.xml",
+    src: "ecc_list_255.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_257.xml",
+    src: "ecc_list_257.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_282.xml",
+    src: "ecc_list_282.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_286.xml",
+    src: "ecc_list_286.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_334.xml",
+    src: "ecc_list_334.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_338.xml",
+    src: "ecc_list_338.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_372.xml",
+    src: "ecc_list_372.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_400.xml",
+    src: "ecc_list_400.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_401.xml",
+    src: "ecc_list_401.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_410.xml",
+    src: "ecc_list_410.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_413.xml",
+    src: "ecc_list_413.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_414.xml",
+    src: "ecc_list_414.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_415.xml",
+    src: "ecc_list_415.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_416.xml",
+    src: "ecc_list_416.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_417.xml",
+    src: "ecc_list_417.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_418.xml",
+    src: "ecc_list_418.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_420.xml",
+    src: "ecc_list_420.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_421.xml",
+    src: "ecc_list_421.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_422.xml",
+    src: "ecc_list_422.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_424.xml",
+    src: "ecc_list_424.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_425.xml",
+    src: "ecc_list_425.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_427.xml",
+    src: "ecc_list_427.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_429.xml",
+    src: "ecc_list_429.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_432.xml",
+    src: "ecc_list_432.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_434.xml",
+    src: "ecc_list_434.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_452.xml",
+    src: "ecc_list_452.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_456.xml",
+    src: "ecc_list_456.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_457.xml",
+    src: "ecc_list_457.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_460.xml",
+    src: "ecc_list_460.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_470.xml",
+    src: "ecc_list_470.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_502.xml",
+    src: "ecc_list_502.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_510.xml",
+    src: "ecc_list_510.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_515.xml",
+    src: "ecc_list_515.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_520.xml",
+    src: "ecc_list_520.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_525.xml",
+    src: "ecc_list_525.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_537.xml",
+    src: "ecc_list_537.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_602.xml",
+    src: "ecc_list_602.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_603.xml",
+    src: "ecc_list_603.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_604.xml",
+    src: "ecc_list_604.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_605.xml",
+    src: "ecc_list_605.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_607.xml",
+    src: "ecc_list_607.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_608.xml",
+    src: "ecc_list_608.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_609.xml",
+    src: "ecc_list_609.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_610.xml",
+    src: "ecc_list_610.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_611.xml",
+    src: "ecc_list_611.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_612.xml",
+    src: "ecc_list_612.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_613.xml",
+    src: "ecc_list_613.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_614.xml",
+    src: "ecc_list_614.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_615.xml",
+    src: "ecc_list_615.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_616.xml",
+    src: "ecc_list_616.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_618.xml",
+    src: "ecc_list_618.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_619.xml",
+    src: "ecc_list_619.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_620.xml",
+    src: "ecc_list_620.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_621.xml",
+    src: "ecc_list_621.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_622.xml",
+    src: "ecc_list_622.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_623.xml",
+    src: "ecc_list_623.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_624.xml",
+    src: "ecc_list_624.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_628.xml",
+    src: "ecc_list_628.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_629.xml",
+    src: "ecc_list_629.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_630.xml",
+    src: "ecc_list_630.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_631.xml",
+    src: "ecc_list_631.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_632.xml",
+    src: "ecc_list_632.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_634.xml",
+    src: "ecc_list_634.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_635.xml",
+    src: "ecc_list_635.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_636.xml",
+    src: "ecc_list_636.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_638.xml",
+    src: "ecc_list_638.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_639.xml",
+    src: "ecc_list_639.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_640.xml",
+    src: "ecc_list_640.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_641.xml",
+    src: "ecc_list_641.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_642.xml",
+    src: "ecc_list_642.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_643.xml",
+    src: "ecc_list_643.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_645.xml",
+    src: "ecc_list_645.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_646.xml",
+    src: "ecc_list_646.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_648.xml",
+    src: "ecc_list_648.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_649.xml",
+    src: "ecc_list_649.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_650.xml",
+    src: "ecc_list_650.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_652.xml",
+    src: "ecc_list_652.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_655.xml",
+    src: "ecc_list_655.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_659.xml",
+    src: "ecc_list_659.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_712.xml",
+    src: "ecc_list_712.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_714.xml",
+    src: "ecc_list_714.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_716.xml",
+    src: "ecc_list_716.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_724.xml",
+    src: "ecc_list_724.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_732.xml",
+    src: "ecc_list_732.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_734.xml",
+    src: "ecc_list_734.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_736.xml",
+    src: "ecc_list_736.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_740.xml",
+    src: "ecc_list_740.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_744.xml",
+    src: "ecc_list_744.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_cameroon.xml",
+    src: "ecc_list_cameroon.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_default.xml",
+    src: "ecc_list_default.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_ga_ai.xml",
+    src: "ecc_list_ga_ai.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_my_or.xml",
+    src: "ecc_list_my_or.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_niger.xml",
+    src: "ecc_list_niger.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_OP01.xml",
+    src: "ecc_list_OP01.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_OP02.xml",
+    src: "ecc_list_OP02.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_OP09.xml",
+    src: "ecc_list_OP09.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_OP12.xml",
+    src: "ecc_list_OP12.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_OP17.xml",
+    src: "ecc_list_OP17.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_OP18.xml",
+    src: "ecc_list_OP18.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_OP20.xml",
+    src: "ecc_list_OP20.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list.xml",
+    src: "ecc_list.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "ecc_list_zi.xml",
+    src: "ecc_list_zi.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "factory.ini",
+    src: "factory.ini",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstab.enableswap",
+    src: "fstab.enableswap",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstab.mt6765",
+    symlinks: ["fstab.mt6762"],
+    src: "fstab.mt6765",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstb.cfg",
+    src: "fstb.cfg",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "media_codecs_c2.xml",
+    src: "media_codecs_c2.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "media_codecs_google_audio.xml",
+    src: "media_codecs_google_audio.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "media_codecs_google_video_le.xml",
+    src: "media_codecs_google_video_le.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "media_codecs_mediatek_audio.xml",
+    src: "media_codecs_mediatek_audio.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "media_codecs_mediatek_video.xml",
+    src: "media_codecs_mediatek_video.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "media_codecs_performance.xml",
+    src: "media_codecs_performance.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "media_codecs.xml",
+    src: "media_codecs.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "media_profiles_V1_0.xml",
+    src: "media_profiles_V1_0.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "memory_config.xml",
+    src: "memory_config.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "mtk_omx_core.cfg",
+    src: "mtk_omx_core.cfg",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "notch-compat.xml",
+    src: "notch-compat.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "pnpmgr.db",
+    src: "pnpmgr.db",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "power_app_cfg.xml",
+    src: "power_app_cfg.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "powercontable.xml",
+    src: "powercontable.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "powerscntbl.xml",
+    src: "powerscntbl.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "public.libraries.txt",
+    src: "public.libraries.txt",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "res_monitor.xml",
+    src: "res_monitor.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "r_submix_audio_policy_configuration.xml",
+    src: "r_submix_audio_policy_configuration.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "slp_conf",
+    src: "slp_conf",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "smsdbvisitor.xml",
+    src: "smsdbvisitor.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "special_pws_channel.xml",
+    src: "special_pws_channel.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "spn-conf-op09.xml",
+    src: "spn-conf-op09.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "sw_config.xml",
+    src: "sw_config.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "throttle.sh",
+    src: "throttle.sh",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ht120.mtc",
+    src: ".tp/.ht120.mtc",
+    sub_dir: ".tp",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "thermal.conf",
+    src: ".tp/thermal.conf",
+    sub_dir: ".tp",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "thermal.off.conf",
+    src: ".tp/thermal.off.conf",
+    sub_dir: ".tp",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "thermal_policy_00",
+    src: ".tp/.thermal_policy_00",
+    sub_dir: ".tp",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "thermal_policy_03",
+    src: ".tp/.thermal_policy_03",
+    sub_dir: ".tp",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "thermal_policy_05",
+    src: ".tp/.thermal_policy_05",
+    sub_dir: ".tp",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "usb_audio_policy_configuration.xml",
+    src: "usb_audio_policy_configuration.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "vendor-apns-conf.xml",
+    src: "vendor-apns-conf.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "virtual-spn-conf-by-efgid1.xml",
+    src: "virtual-spn-conf-by-efgid1.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "virtual-spn-conf-by-efpnn.xml",
+    src: "virtual-spn-conf-by-efpnn.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "virtual-spn-conf-by-efspn.xml",
+    src: "virtual-spn-conf-by-efspn.xml",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "virtual-spn-conf-by-imsi.xml",
+    src: "virtual-spn-conf-by-imsi.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "p2p_supplicant_overlay.conf",
+    src: "wifi/p2p_supplicant_overlay.conf",
+    sub_dir: "wifi",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "wpa_supplicant.conf",
+    src: "wifi/wpa_supplicant.conf",
+    sub_dir: "wifi",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "wpa_supplicant_overlay.conf",
+    src: "wifi/wpa_supplicant_overlay.conf",
+    sub_dir: "wifi",
+    vendor: true,
+}

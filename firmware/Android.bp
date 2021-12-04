@@ -1,0 +1,147 @@
+prebuilt_firmware {
+ name: "Conf_MultipleTest",
+ src: "Conf_MultipleTest.ini",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "rgx",
+ src: "rgx.fw",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "soc1_0_patch_mcu_1_1_hdr",
+ src: "soc1_0_patch_mcu_1_1_hdr.bin",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "WMT_SOC",
+ src: "WMT_SOC.cfg",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "novatek_ts_mp_02",
+ src: "novatek_ts_mp_02.bin",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "soc1_0_ram_wifi_1_1_hdr",
+ src: "soc1_0_ram_wifi_1_1_hdr.bin",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "WIFI_RAM_CODE_soc1_0_1_1",
+ src: "WIFI_RAM_CODE_soc1_0_1_1.bin",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "MNL",
+ src: "MNL.bin",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "mt6631_fm_v1_patch",
+ src: "mt6631_fm_v1_patch.bin",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "wifi",
+ src: "wifi.cfg",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "mt6631_fm_v1_coeff",
+ src: "mt6631_fm_v1_coeff.bin",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "novatek_ts_fw",
+ src: "novatek_ts_fw.bin",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "fm_cust",
+ src: "fm_cust.cfg",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "gt1151_default_firmware2",
+ src: "gt1151_default_firmware2.img",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "focaltech_ts_fw",
+ src: "focaltech_ts_fw.bin",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "novatek_ts_mp",
+ src: "novatek_ts_mp.bin",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "BT_FW",
+ src: "BT_FW.cfg",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "soc1_0_ram_mcu_1_1_hdr",
+ src: "soc1_0_ram_mcu_1_1_hdr.bin",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "Android",
+ src: "Android.bp",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "novatek_ts_fw_02",
+ src: "novatek_ts_fw_02.bin",
+ filename_from_src: true,
+ vendor: true,
+}
+
+prebuilt_firmware {
+ name: "soc1_0_ram_bt_1_1_hdr",
+ src: "soc1_0_ram_bt_1_1_hdr.bin",
+ filename_from_src: true,
+ vendor: true,
+}
+

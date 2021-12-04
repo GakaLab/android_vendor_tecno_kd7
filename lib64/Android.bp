@@ -1,0 +1,5865 @@
+/*
+*  64 bit libraries
+*/
+
+cc_prebuilt_library {
+    name: "gc02m1b_mipi_raw_IdxMgr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["gc02m1b_mipi_raw_IdxMgr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "gc02m1_mipi_raw_IdxMgr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["gc02m1_mipi_raw_IdxMgr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "gc2375hmain3_mipi_raw_IdxMgr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["gc2375hmain3_mipi_raw_IdxMgr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "gc2375h_mipi_raw_IdxMgr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["gc2375h_mipi_raw_IdxMgr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "gc6153_serial_yuv_IdxMgr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["gc6153_serial_yuv_IdxMgr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "gc8034_mipi_raw_IdxMgr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["gc8034_mipi_raw_IdxMgr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "android.hardware.camera.provider@2.4-impl-mediatek",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.camera.common@1.0",
+        "android.hardware.camera.device@1.0",
+        "android.hardware.camera.device@3.2",
+        "android.hardware.camera.provider@2.4",
+        "libarcsoft_cal",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libladder",
+        "liblog",
+        "libm",
+        "libmtkcam_debugutils",
+        "libmtkcam_hwutils",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm64: {
+            srcs: ["hw/android.hardware.camera.provider@2.4-impl-mediatek.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "android.hardware.gnss@2.0-impl-mediatek",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.gnss.measurement_corrections@1.0",
+        "android.hardware.gnss.visibility_control@1.0",
+        "android.hardware.gnss@1.0",
+        "android.hardware.gnss@1.1",
+        "android.hardware.gnss@2.0",
+        "libc",
+        "libc++",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm64: {
+            srcs: ["hw/android.hardware.gnss@2.0-impl-mediatek.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "hwcomposer.mt6765",
+    compile_multilib: "64",
+    shared_libs: [
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libged",
+        "libgralloc_extra",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "libion",
+        "libion_mtk",
+        "liblog",
+        "libm",
+        "libpower",
+        "libpq_prot",
+        "libsync",
+        "libui",
+        "libutils",
+        "vendor.mediatek.hardware.pq@2.0",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm64: {
+            srcs: ["hw/hwcomposer.mt6765.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "sensors.mt6765",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libfile_op",
+        "libhardware",
+        "libhwm",
+        "libksensor",
+        "liblog",
+        "libm",
+        "libnvram",
+        "libstagefright_foundation",
+        "libutils",
+        "vendor.mediatek.hardware.nvram@1.1",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm64: {
+            srcs: ["hw/sensors.mt6765.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.camera.lomoeffect@1.0-impl",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.camera.common@1.0",
+        "android.hardware.camera.device@3.2",
+        "android.hidl.memory@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidlmemory",
+        "libhidltransport",
+        "libion",
+        "libion_mtk",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.camera.lomoeffect@1.0",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm64: {
+            srcs: ["hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "lbs_hidl_service-impl",
+    compile_multilib: "64",
+    shared_libs: [
+        "libbase",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.lbs@1.0",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["lbs_hidl_service-impl.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "lib3a.ae.core",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.ae",
+        "lib3a.log",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["lib3a.ae.core.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "lib3a.ae",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.log",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["lib3a.ae.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "lib3a.af.core",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.af",
+        "lib3a.log",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["lib3a.af.core.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "lib3a.af",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.log",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["lib3a.af.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "lib3a.awb.core",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.awb",
+        "lib3a.log",
+        "libc",
+        "libc++",
+        "libcamalgo.utility",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["lib3a.awb.core.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "lib3a.awb",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.log",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["lib3a.awb.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "lib3a.ccudrv",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libion",
+        "libion_mtk",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["lib3a.ccudrv.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "lib3a.ccuif",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.ccudrv",
+        "libc",
+        "libc++",
+        "libcam.iopipe",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libion",
+        "libion_mtk",
+        "liblog",
+        "libm",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["lib3a.ccuif.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "lib3a.flash",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.log",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["lib3a.flash.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "lib3a.gma",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.log",
+        "libc",
+        "libc++",
+        "libcamalgo.utility",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["lib3a.gma.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "lib3a.lce",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.log",
+        "libc",
+        "libc++",
+        "libcamalgo.utility",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["lib3a.lce.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "lib3a.log",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["lib3a.log.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "lib3a.n3d3a",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.log",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["lib3a.n3d3a.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libacdk",
+    compile_multilib: "64",
+    shared_libs: [
+        "libJpgEncPipe",
+        "libc",
+        "libc++",
+        "libcam.halsensor",
+        "libcam.iopipe",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libimageio",
+        "libion",
+        "libion_mtk",
+        "liblog",
+        "libm",
+        "libmtkcam_fwkutils",
+        "libmtkcam_imem",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libacdk.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libamipengine",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libamipengine.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libarcsoft_beautyshot",
+    proprietary: true,
+    check_elf_files: false,
+    target: {
+        android_arm64: {
+            srcs: ["libarcsoft_beautyshot.so"],
+        },
+    },
+    shared_libs: [
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "libarcsoft_cal",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "libfeatureiodrv_mem",
+        "liblog",
+        "libm",
+        "libmtkcam_modulehelper",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libarcsoft_cal.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libarcsoft_dro",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmpbase",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libarcsoft_dro.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libarcsoft_dualcam_refocus",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmpbase",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libarcsoft_dualcam_refocus.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libarcsoft_high_dynamic_range",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmpbase",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libarcsoft_high_dynamic_range.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libarcsoft_low_light_shot",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmpbase",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libarcsoft_low_light_shot.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libarcsoft_picselfie_algorithm",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmpbase",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libarcsoft_picselfie_algorithm.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "lib_bsscore",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.ae.core",
+        "lib3a.af.core",
+        "lib3a.awb.core",
+        "lib3a.flash",
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcam.feature_utils",
+        "libcam.iopipe",
+        "libcamalgo.dngop",
+        "libcamalgo.fdft",
+        "libcamalgo.mfnr",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libfeature.face",
+        "libfeature.stereo.provider",
+        "libgralloc_extra",
+        "libhidlbase",
+        "libladder",
+        "liblog",
+        "libm",
+        "libmfllcore",
+        "libmtkcam.featurepipe.vsdof_util",
+        "libmtkcam_3rdparty",
+        "libmtkcam_3rdparty.core",
+        "libmtkcam_debugutils",
+        "libmtkcam_exif",
+        "libmtkcam_hwutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_tuning_utils",
+        "libmtkcam_ulog",
+        "libnativewindow",
+        "libutils",
+        "vendor.mediatek.hardware.power@2.0",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["lib_bsscore.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcalculatesharpness",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+        "libz",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcalculatesharpness.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcam3a_imem",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libion",
+        "libion_mtk",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcam3a_imem.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamalgo.3dnr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libEGL",
+        "libGLESv2",
+        "libc",
+        "libc++",
+        "libcamalgo.utility",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+        "libnativewindow",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamalgo.3dnr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamalgo.asd",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamalgo.asd.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamalgo.dngop",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcamalgo.utility",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamalgo.dngop.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamalgo.eis",
+    compile_multilib: "64",
+    shared_libs: [
+        "libGLESv2",
+        "libc",
+        "libc++",
+        "libcamalgo.utility",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamalgo.eis.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamalgo.fdft",
+    compile_multilib: "64",
+    shared_libs: [
+        "libGLESv2",
+        "libc",
+        "libc++",
+        "libcamalgo.utility",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamalgo.fdft.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamalgo.flicker",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamalgo.flicker.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamalgo.fsc",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcamalgo.utility",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamalgo.fsc.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamalgo.gyro",
+    compile_multilib: "64",
+    shared_libs: [
+        "libEGL",
+        "libGLESv2",
+        "libc",
+        "libc++",
+        "libcamalgo.utility",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+        "libnativewindow",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamalgo.gyro.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamalgo.ispfeature",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamalgo.ispfeature.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamalgo.lmv",
+    compile_multilib: "64",
+    shared_libs: [
+        "libGLESv2",
+        "libc",
+        "libc++",
+        "libcamalgo.utility",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamalgo.lmv.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamalgo.lsc",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcamalgo.utility",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamalgo.lsc.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamalgo.mfnr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcamalgo.utility",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamalgo.mfnr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamalgo.nr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcamalgo.utility",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamalgo.nr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamalgo.utility",
+    compile_multilib: "64",
+    shared_libs: [
+        "libEGL",
+        "libGLESv2",
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamalgo.utility.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamalgo.warp",
+    compile_multilib: "64",
+    shared_libs: [
+        "libEGL",
+        "libGLESv2",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcamalgo.utility",
+        "libcutils",
+        "libdl",
+        "libgralloc_extra",
+        "liblog",
+        "libm",
+        "libnativewindow",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamalgo.warp.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamdrv_imem",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libion",
+        "libion_mtk",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamdrv_imem.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamdrv_isp",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcamdrv_imem",
+        "libcutils",
+        "libdl",
+        "libion",
+        "libion_mtk",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamdrv_isp.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamdrv_tuning_mgr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcamdrv_imem",
+        "libcamdrv_isp",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamdrv_tuning_mgr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcamdrv_twin",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcamdrv_imem",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcamdrv_twin.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcameracustom.eis",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcam.halsensor",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+        "libutils",
+        "vendor.mediatek.hardware.power@1.1",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcameracustom.eis.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcameracustom.plugin",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+        "libremosaic_wrapper",
+        "libremosaiclib",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcameracustom.plugin.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcameracustom",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.power@1.0",
+        "gc02m1_mipi_raw_IdxMgr",
+        "gc02m1b_mipi_raw_IdxMgr",
+        "gc2375h_mipi_raw_IdxMgr",
+        "gc2375hmain3_mipi_raw_IdxMgr",
+        "gc6153_serial_yuv_IdxMgr",
+        "gc8034_mipi_raw_IdxMgr",
+        "libSonyIMX230PdafLibraryWrapper",
+        "libSonyIMX338PdafLibraryWrapper",
+        "libSonyIMX386PdafLibraryWrapper",
+        "libSonyIMX519PdafLibraryWrapper",
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcam.hal3a.log",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libmtkcam_debugutils",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libutils",
+        "pblcgc02m1_mipi_raw_IdxMgr",
+        "pblcgc02m1b_mipi_raw_IdxMgr",
+        "pblcgc2375h_mipi_raw_IdxMgr",
+        "pblcgc2375hmain3_mipi_raw_IdxMgr",
+        "pblcgc6153_serial_yuv_IdxMgr",
+        "pblcgc8034_mipi_raw_IdxMgr",
+        "pblcs5k3p9sx_mipi_raw_IdxMgr",
+        "s5k3p9sx_mipi_raw_IdxMgr",
+        "vendor.mediatek.hardware.power@1.1",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcameracustom.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcam.feature_utils",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.ae.core",
+        "lib3a.af.core",
+        "lib3a.awb.core",
+        "lib3a.flash",
+        "libc",
+        "libc++",
+        "libcam.iopipe",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmtkcam_exif",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_tuning_utils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcam.feature_utils.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcam.hal3a.cctsvr",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.ae.core",
+        "lib3a.af.core",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcam.hal3a.v3",
+        "libcam.hal3a.v3.lsctbl",
+        "libcam.hal3a.v3.nvram",
+        "libcam.iopipe",
+        "libcamalgo.lsc",
+        "libcamdrv_imem",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmtkcam_fwkutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcam.hal3a.cctsvr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcam.hal3a.log",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcam.hal3a.log.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcam.hal3a.v3.dng",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcam.hal3a.v3.lsctbl",
+        "libcam.hal3a.v3.nvram",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_metadata",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcam.hal3a.v3.dng.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcam.hal3a.v3.lsctbl",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcamalgo.lsc",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcam.hal3a.v3.lsctbl.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcam.hal3a.v3.nvram",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_imgbuf",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcam.hal3a.v3.nvram.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcam.hal3a.v3",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.power@1.0",
+        "lib3a.ae",
+        "lib3a.ae.core",
+        "lib3a.af",
+        "lib3a.af.core",
+        "lib3a.awb",
+        "lib3a.awb.core",
+        "lib3a.ccudrv",
+        "lib3a.ccuif",
+        "lib3a.flash",
+        "lib3a.gma",
+        "lib3a.lce",
+        "lib3a.n3d3a",
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcam.hal3a.v3.lsctbl",
+        "libcam.hal3a.v3.nvram",
+        "libcam.iopipe",
+        "libcam.pdtblgen",
+        "libcam.utils.sensorprovider",
+        "libcam3a_imem",
+        "libcamalgo.fdft",
+        "libcamalgo.flicker",
+        "libcamalgo.ispfeature",
+        "libcamalgo.lsc",
+        "libcamalgo.nr",
+        "libcamdrv_tuning_mgr",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "libfeatureiodrv_mem",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "libion",
+        "libion_mtk",
+        "libladder",
+        "liblog",
+        "libm",
+        "libmtkcam_hwutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_sysutils",
+        "libmtkcam_tuning_utils",
+        "libmtkcam_ulog",
+        "libui",
+        "libutils",
+        "vendor.mediatek.hardware.power@2.0",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcam.hal3a.v3.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcam.halisp",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_hwutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_sysutils",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcam.halisp.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcam.halsensor",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcamdrv_isp",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_debugutils",
+        "libmtkcam_metadata",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcam.halsensor.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcam.iopipe",
+    compile_multilib: "64",
+    shared_libs: [
+        "libJpgEncPipe",
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcam.halsensor",
+        "libcamdrv_imem",
+        "libcamdrv_isp",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libhardware",
+        "libimageio",
+        "libimageio_plat_drv",
+        "libimageio_plat_pipe",
+        "liblog",
+        "libm",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_tuning_utils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcam.iopipe.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcam.lcs",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmtkcam_imgbuf",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcam.lcs.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcam.pdtblgen",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.af.core",
+        "libc",
+        "libc++",
+        "libcam.iopipe",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmtkcam_imgbuf",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcam.pdtblgen.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcam.utils.sensorprovider",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.frameworks.sensorservice@1.0",
+        "android.hardware.sensors@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libsensorndkbridge",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcam.utils.sensorprovider.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcam.vhdr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_metadata",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libcam.vhdr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libdenoise",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+        "libz",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libdenoise.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libeffecthal.base",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_imgbuf",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libui",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libeffecthal.base.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libem_camera_jni",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libem_camera_jni.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libem_sensor_jni",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libhwm",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libem_sensor_jni.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libfeature_3dnr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcam.utils.sensorprovider",
+        "libcamalgo.3dnr",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_sysutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libfeature_3dnr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libfeature_eis",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.ae.core",
+        "libc",
+        "libc++",
+        "libcam.utils.sensorprovider",
+        "libcamalgo.eis",
+        "libcamalgo.fsc",
+        "libcamalgo.gyro",
+        "libcamalgo.lmv",
+        "libcameracustom",
+        "libcameracustom.eis",
+        "libcutils",
+        "libdl",
+        "libfeature_lmv",
+        "liblog",
+        "libm",
+        "libmtkcam_imgbuf",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_sysutils",
+        "libmtkcam_ulog",
+        "libnvram",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libfeature_eis.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libfeature.face",
+    compile_multilib: "64",
+    shared_libs: [
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcamalgo.asd",
+        "libcamalgo.fdft",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libeffecthal.base",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmtkcam_fdvt",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libnativewindow",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libfeature.face.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libfeature_fsc",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcamalgo.fsc",
+        "libcameracustom",
+        "libcameracustom.eis",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmtkcam_metadata",
+        "libmtkcam_stdutils",
+        "libmtkcam_sysutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libfeature_fsc.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libfeatureiodrv_mem",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.flash",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcam.halsensor",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_modulehelper",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libfeatureiodrv_mem.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libfeature_lmv",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcam.utils.sensorprovider",
+        "libcamalgo.eis",
+        "libcamalgo.fsc",
+        "libcamalgo.gyro",
+        "libcamalgo.lmv",
+        "libcameracustom",
+        "libcameracustom.eis",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_imgbuf",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_sysutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libfeature_lmv.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libfeature_rss",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+        "libmtkcam_sysutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libfeature_rss.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libfeature.stereo.provider",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "libfeatureiodrv_mem",
+        "libgralloc_extra",
+        "liblog",
+        "libm",
+        "libmtkcam.logicalmodule",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libnativewindow",
+        "libsync",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libfeature.stereo.provider.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libfft_vendor",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libfft_vendor.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libforkexecwrap",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libforkexecwrap.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libifcutils_mtk",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libifcutils_mtk.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libImageEval",
+    compile_multilib: "64",
+    shared_libs: [
+        "libTran_Log",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libImageEval.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libimageio_plat_drv",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcamdrv_imem",
+        "libcamdrv_isp",
+        "libcamdrv_tuning_mgr",
+        "libcamdrv_twin",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libimageio_plat_drv.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libimageio_plat_pipe",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcamdrv_isp",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libimageio_plat_drv",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libimageio_plat_pipe.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libimageio",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libimageio_plat_drv",
+        "libimageio_plat_pipe",
+        "liblog",
+        "libm",
+        "libmtkcam_ulog",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libimageio.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libkmsetkey",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.keymaster_attestation@1.1",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libkmsetkey.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libksensor",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libksensor.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "liblpcnr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["liblpcnr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmfllcore",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcam.iopipe",
+        "libcamalgo.mfnr",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "libladder",
+        "liblog",
+        "libm",
+        "libmtkcam_hwutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_sysutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmfllcore.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libminizip",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+        "libz",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libminizip.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmpbase",
+    compile_multilib: "64",
+    shared_libs: ["libc"],
+    target: {
+        android_arm64: {
+            srcs: ["libmpbase.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_3rdparty.core",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_3rdparty.core.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_3rdparty.customer",
+    compile_multilib: "64",
+    shared_libs: [
+        "libTranExtImgProc",
+        "libc",
+        "libc++",
+        "libcam.iopipe",
+        "libcam.utils.sensorprovider",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libfeature.stereo.provider",
+        "liblog",
+        "libm",
+        "libmtkcam.featurepipe.vsdof_util",
+        "libmtkcam_3rdparty.core",
+        "libmtkcam_hwutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_sysutils",
+        "libmtkcam_tuning_utils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_3rdparty.customer.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_3rdparty.mtk",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcam.feature_utils",
+        "libcam.hal3a.v3",
+        "libcam.iopipe",
+        "libcamalgo.dngop",
+        "libcamalgo.fdft",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libfeature.stereo.provider",
+        "liblog",
+        "liblpcnr",
+        "libm",
+        "libmfllcore",
+        "libmtkcam.featurepipe.vsdof_util",
+        "libmtkcam_3rdparty.core",
+        "libmtkcam_exif",
+        "libmtkcam_hwutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_tuning_utils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_3rdparty.mtk.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_3rdparty",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcam.feature_utils",
+        "libcam.hal3a.v3",
+        "libcam.iopipe",
+        "libcamalgo.dngop",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libfeature.stereo.provider",
+        "liblog",
+        "libm",
+        "libmfllcore",
+        "libmtkcam.featurepipe.vsdof_util",
+        "libmtkcam_3rdparty.core",
+        "libmtkcam_3rdparty.customer",
+        "libmtkcam_3rdparty.mtk",
+        "libmtkcam_hwutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_tuning_utils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_3rdparty.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_calibration_convertor",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_calibration_convertor.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_calibration_provider",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "libfeature.stereo.provider",
+        "libfeatureiodrv_mem",
+        "liblog",
+        "libm",
+        "libmtkcam_calibration_convertor",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_calibration_provider.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_device3_app",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.camera.device@3.2",
+        "android.hardware.camera.device@3.3",
+        "android.hardware.camera.device@3.4",
+        "android.hardware.camera.device@3.5",
+        "libarcsoft_cal",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libfmq",
+        "libhardware",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libmtkcam_debugutils",
+        "libmtkcam_grallocutils",
+        "libmtkcam_hwutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_streamutils",
+        "libmtkcam_ulog",
+        "libnativewindow",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_device3_app.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_device3",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.camera.device@3.2",
+        "android.hardware.camera.device@3.3",
+        "android.hardware.camera.device@3.4",
+        "android.hardware.camera.device@3.5",
+        "android.hardware.power@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libladder",
+        "liblog",
+        "libm",
+        "libmtkcam_debugutils",
+        "libmtkcam_device3_app",
+        "libmtkcam_hwutils",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_pipelinemodel",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+        "vendor.mediatek.hardware.power@2.0",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_device3.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_exif",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_metadata",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_exif.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_fdvt",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_imem",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_fdvt.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam.featurepipe.capture",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib3a.ae.core",
+        "lib3a.af.core",
+        "lib3a.awb.core",
+        "lib3a.flash",
+        "libTranExtImgProc",
+        "lib_bsscore",
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcam.feature_utils",
+        "libcam.iopipe",
+        "libcamalgo.dngop",
+        "libcamalgo.fdft",
+        "libcamalgo.mfnr",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libfeature.face",
+        "libfeature.stereo.provider",
+        "libgralloc_extra",
+        "libhidlbase",
+        "libladder",
+        "liblog",
+        "libm",
+        "libmfllcore",
+        "libmtkcam.featurepipe.vsdof_util",
+        "libmtkcam_3rdparty",
+        "libmtkcam_3rdparty.core",
+        "libmtkcam_debugutils",
+        "libmtkcam_exif",
+        "libmtkcam_hwutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_tuning_utils",
+        "libmtkcam_ulog",
+        "libnativewindow",
+        "libutils",
+        "vendor.mediatek.hardware.power@2.0",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam.featurepipe.capture.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam.featurepipe.streaming",
+    compile_multilib: "64",
+    shared_libs: [
+        "libJpgEncPipe",
+        "libc",
+        "libc++",
+        "libcam.feature_utils",
+        "libcam.iopipe",
+        "libcamalgo.eis",
+        "libcamalgo.fdft",
+        "libcamalgo.fsc",
+        "libcamalgo.gyro",
+        "libcamalgo.lmv",
+        "libcamalgo.warp",
+        "libcameracustom",
+        "libcameracustom.eis",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libfeature.face",
+        "libfeature.stereo.provider",
+        "libfeature_3dnr",
+        "libfeature_eis",
+        "libfeature_fsc",
+        "libgralloc_extra",
+        "libhardware",
+        "libion",
+        "libladder",
+        "liblog",
+        "libm",
+        "libmtkcam_3rdparty",
+        "libmtkcam_3rdparty.core",
+        "libmtkcam_debugutils",
+        "libmtkcam_exif",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_modulehelper",
+        "libmtkcam_rsc",
+        "libmtkcam_stdutils",
+        "libmtkcam_tuning_utils",
+        "libmtkcam_ulog",
+        "libnativewindow",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam.featurepipe.streaming.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam.featurepipe.vsdof_util",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcam.iopipe",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libeffecthal.base",
+        "libgralloc_extra",
+        "libion",
+        "libion_mtk",
+        "liblog",
+        "libm",
+        "libmtkcam_imgbuf",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam.featurepipe.vsdof_util.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_featurepolicy",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcam.feature_utils",
+        "libcam.vhdr",
+        "libcameracustom",
+        "libcameracustom.eis",
+        "libcutils",
+        "libdl",
+        "libfeature.stereo.provider",
+        "liblog",
+        "libm",
+        "libmtkcam_3rdparty",
+        "libmtkcam_3rdparty.core",
+        "libmtkcam_exif",
+        "libmtkcam_hwutils",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_sysutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_featurepolicy.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_fwkutils",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_fwkutils.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_grallocutils",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.graphics.allocator@2.0",
+        "android.hardware.graphics.mapper@2.0",
+        "android.hardware.graphics.mapper@3.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libgralloc_extra",
+        "libhardware",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libsync",
+        "libui",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_grallocutils.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_hwnode",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.camera.device@3.2",
+        "lib3a.ae.core",
+        "lib3a.af.core",
+        "lib3a.awb.core",
+        "lib3a.flash",
+        "libWaterMarkProc",
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcam.feature_utils",
+        "libcam.iopipe",
+        "libcam.utils.sensorprovider",
+        "libcam.vhdr",
+        "libcamalgo.dngop",
+        "libcamalgo.eis",
+        "libcamalgo.fdft",
+        "libcamalgo.fsc",
+        "libcamalgo.gyro",
+        "libcamalgo.lmv",
+        "libcameracustom",
+        "libcameracustom.eis",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libfeature.face",
+        "libfeature_3dnr",
+        "libfeature_eis",
+        "libfeature_fsc",
+        "libfeature_lmv",
+        "libfeature_rss",
+        "libgralloc_extra",
+        "libhardware",
+        "libion",
+        "libion_mtk",
+        "libladder",
+        "liblog",
+        "libm",
+        "libmfllcore",
+        "libmtkcam.featurepipe.capture",
+        "libmtkcam.featurepipe.streaming",
+        "libmtkcam_exif",
+        "libmtkcam_grallocutils",
+        "libmtkcam_hwutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_prerelease",
+        "libmtkcam_stdutils",
+        "libmtkcam_streamutils",
+        "libmtkcam_synchelper",
+        "libmtkcam_sysutils",
+        "libmtkcam_tuning_utils",
+        "libmtkcam_ulog",
+        "libstereoinfoaccessor_vsdof",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_hwnode.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_hwutils",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.power@1.0",
+        "libbwc",
+        "libc",
+        "libc++",
+        "libcamalgo.fdft",
+        "libcamalgo.mfnr",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "libfeature.stereo.provider",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "libladder",
+        "liblog",
+        "libm",
+        "libmtkcam_debugutils",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_sysutils",
+        "libmtkcam_ulog",
+        "libutils",
+        "vendor.mediatek.hardware.power@2.0",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_hwutils.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_imem",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libion",
+        "libion_mtk",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_imem.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_imgbuf",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libgralloc_extra",
+        "libion",
+        "libion_mtk",
+        "liblog",
+        "libm",
+        "libmtkcam_debugutils",
+        "libmtkcam_grallocutils",
+        "libmtkcam_stdutils",
+        "libmtkcam_sysutils",
+        "libmtkcam_ulog",
+        "libnativewindow",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_imgbuf.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam.logicalmodule",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_metadata",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam.logicalmodule.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_metadata",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcamera_metadata",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libladder",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_metadata.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_metastore",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcamera_metadata",
+        "libcutils",
+        "libdl",
+        "libfeature.stereo.provider",
+        "liblog",
+        "libm",
+        "libmtkcam_calibration_convertor",
+        "libmtkcam_calibration_provider",
+        "libmtkcam_metadata",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_metastore.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_modulefactory_aaa",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcam.hal3a.v3",
+        "libcam.hal3a.v3.dng",
+        "libcam.hal3a.v3.lsctbl",
+        "libcam.hal3a.v3.nvram",
+        "libcam.halisp",
+        "libcam.lcs",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_modulefactory_aaa.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_modulefactory_custom",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcameracustom",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_modulefactory_custom.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_modulefactory_drv",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcam.halsensor",
+        "libcam.iopipe",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_modulefactory_drv.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_modulefactory_feature",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_modulefactory_feature.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_modulefactory_utils",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmtkcam.logicalmodule",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_modulefactory_utils.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_modulehelper",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_ulog",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_modulehelper.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_pipeline_fbm",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_debugutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_stdutils",
+        "libmtkcam_streamutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_pipeline_fbm.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_pipelinemodel_adapter",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_hwutils",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_pipelinemodel_adapter.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_pipelinemodel_capture",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_hwutils",
+        "libmtkcam_metadata",
+        "libmtkcam_pipeline",
+        "libmtkcam_pipelinemodel_utils",
+        "libmtkcam_prerelease",
+        "libmtkcam_stdutils",
+        "libmtkcam_streamutils",
+        "libmtkcam_sysutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_pipelinemodel_capture.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_pipelinemodel_session",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libbwc",
+        "libc",
+        "libc++",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "libfeature.stereo.provider",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libmtkcam_hwutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_pipeline",
+        "libmtkcam_pipelinemodel_capture",
+        "libmtkcam_pipelinemodel_utils",
+        "libmtkcam_pipelinemodel_zsl",
+        "libmtkcam_pipelinepolicy_factory",
+        "libmtkcam_prerelease",
+        "libmtkcam_stdutils",
+        "libmtkcam_streamutils",
+        "libmtkcam_ulog",
+        "libutils",
+        "vendor.mediatek.hardware.power@2.0",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_pipelinemodel_session.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_pipelinemodel",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libfeature.stereo.provider",
+        "liblog",
+        "libm",
+        "libmtkcam.logicalmodule",
+        "libmtkcam_debugutils",
+        "libmtkcam_hwutils",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_pipelinemodel_adapter",
+        "libmtkcam_pipelinemodel_capture",
+        "libmtkcam_pipelinemodel_session",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_pipelinemodel.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_pipelinemodel_utils",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.power@1.0",
+        "libaedv",
+        "libbwc",
+        "libc",
+        "libc++",
+        "libcameracustom",
+        "libcutils",
+        "libdl",
+        "libfeature.stereo.provider",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libmtkcam_hwnode",
+        "libmtkcam_hwutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_pipeline",
+        "libmtkcam_stdutils",
+        "libmtkcam_streamutils",
+        "libmtkcam_synchelper",
+        "libmtkcam_ulog",
+        "libutils",
+        "vendor.mediatek.hardware.power@2.0",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_pipelinemodel_utils.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_pipelinemodel_zsl",
+    compile_multilib: "64",
+    shared_libs: [
+        "libImageEval",
+        "libc",
+        "libc++",
+        "libcalculatesharpness",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_debugutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_pipeline",
+        "libmtkcam_pipelinemodel_utils",
+        "libmtkcam_stdutils",
+        "libmtkcam_streamutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_pipelinemodel_zsl.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_pipelinepolicy_factory",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_featurepolicy",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_pipelinepolicy",
+        "libmtkcam_pipelinepolicy-security",
+        "libmtkcam_pipelinepolicy-smvr",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_pipelinepolicy_factory.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_pipelinepolicy-security",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_hwutils",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_pipelinepolicy",
+        "libmtkcam_stdutils",
+        "libmtkcam_streamutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_pipelinepolicy-security.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_pipelinepolicy-smvr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_hwutils",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_pipelinepolicy",
+        "libmtkcam_stdutils",
+        "libmtkcam_streamutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_pipelinepolicy-smvr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_pipelinepolicy",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcameracustom",
+        "libcameracustom.eis",
+        "libcutils",
+        "libdl",
+        "libfeature.stereo.provider",
+        "liblog",
+        "libm",
+        "libmtkcam_3rdparty",
+        "libmtkcam_3rdparty.core",
+        "libmtkcam_featurepolicy",
+        "libmtkcam_hwutils",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_pipelinemodel_utils",
+        "libmtkcam_stdutils",
+        "libmtkcam_streamutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_pipelinepolicy.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_pipeline",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmtkcam_debugutils",
+        "libmtkcam_hwutils",
+        "libmtkcam_metadata",
+        "libmtkcam_pipeline_fbm",
+        "libmtkcam_prerelease",
+        "libmtkcam_stdutils",
+        "libmtkcam_streamutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_pipeline.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_prerelease",
+    check_elf_files: false,
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam.eventcallback",
+        "libmtkcam_metadata",
+        "libmtkcam_stdutils",
+        "libmtkcam_streamutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_prerelease.so"],
+        },
+        vendor: {
+            exclude_shared_libs: [
+                "libmtkcam_metadata", "libmtkcam_streamutils",
+            ],
+        }
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_rsc",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_rsc.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_streamutils",
+    compile_multilib: "64",
+    shared_libs: [
+        "lib_bsscore",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmtkcam_debugutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_streamutils.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_synchelper",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmtkcam.logicalmodule",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_synchelper.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_sysutils",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.power@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "libladder",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libsync",
+        "libutils",
+        "vendor.mediatek.hardware.power@2.0",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_sysutils.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_tuning_utils",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmtkcam_metadata",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_sysutils",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkcam_tuning_utils.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkconfig",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+        "libmtkrillog",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkconfig.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkconfigutils",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+        "libmtkconfig",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkconfigutils.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtknetcap",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+        "libmtkrillog",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtknetcap.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtk-rilop",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.radio@1.0",
+        "libaedv",
+        "libc",
+        "libc++",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "libm",
+        "libmtk-ril",
+        "libmtkcutils",
+        "libmtkhardware_legacy",
+        "libmtkrillog",
+        "libmtkrilutils",
+        "libmtkutils",
+        "libratconfig",
+        "librilfusion",
+        "vendor.mediatek.hardware.radio_op@1.2",
+        "vendor.mediatek.hardware.radio_op@1.3",
+        "vendor.mediatek.hardware.radio_op@1.4",
+        "vendor.mediatek.hardware.radio_op@2.0",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtk-rilop.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtk-ril",
+    compile_multilib: "64",
+    shared_libs: [
+        "libaedv",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcrypto",
+        "libdl",
+        "libm",
+        "libmtkares",
+        "libmtkconfigutils",
+        "libmtkcutils",
+        "libmtkhardware_legacy",
+        "libmtknetcap",
+        "libmtknetutils",
+        "libmtkproperty",
+        "libmtkrillog",
+        "libmtkrilutils",
+        "libmtksysutils",
+        "libmtktinyxml",
+        "libmtkutils",
+        "libratconfig",
+        "librilfusion",
+        "libsysenv",
+        "libwpfa",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtk-ril.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkrilutils",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcrypto",
+        "libdl",
+        "libm",
+        "libmtkconfigutils",
+        "libmtkcutils",
+        "libmtkproperty",
+        "libmtkrillog",
+        "libratconfig",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkrilutils.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libMtkSImage",
+    compile_multilib: "64",
+    shared_libs: [
+        "libTran_Log",
+        "libc",
+        "libc++",
+        "libcam.iopipe",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_debugutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_stdutils",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libMtkSImage.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtktinyxml",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtktinyxml.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkutils",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libladder",
+        "libm",
+        "libmtkcutils",
+        "libmtkproperty",
+        "libmtkrillog",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libmtkutils.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libratconfig",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+        "libmtkcutils",
+        "libmtkproperty",
+        "libmtkrillog",
+        "libmtkutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libratconfig.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libremosaiclib",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libremosaiclib.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libremosaic_wrapper",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libremosaic_wrapper.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "librilfusion",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.radio.config@1.0",
+        "android.hardware.radio.config@1.1",
+        "android.hardware.radio.config@1.2",
+        "android.hardware.radio@1.0",
+        "android.hardware.radio@1.1",
+        "android.hardware.radio@1.2",
+        "android.hardware.radio@1.3",
+        "android.hardware.radio@1.4",
+        "libaedv",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libm",
+        "libmtkconfigutils",
+        "libmtkcutils",
+        "libmtkhardware_legacy",
+        "libmtkproperty",
+        "libmtkrillog",
+        "libmtkrilutils",
+        "libmtkutils",
+        "vendor.mediatek.hardware.mtkradioex@1.0",
+        "vendor.mediatek.hardware.mtkradioex@1.1",
+        "vendor.mediatek.hardware.mtkradioex@1.2",
+        "vendor.mediatek.hardware.mtkradioex@1.3",
+        "vendor.mediatek.hardware.mtkradioex@1.4",
+        "vendor.mediatek.hardware.mtkradioex@1.5",
+        "vendor.mediatek.hardware.mtkradioex@1.6",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["librilfusion.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libsensor_custom",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libhardware",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libsensor_custom.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libSonyIMX230PdafLibrary",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libSonyIMX230PdafLibrary.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libSonyIMX230PdafLibraryWrapper",
+    compile_multilib: "64",
+    shared_libs: [
+        "libSonyIMX230PdafLibrary",
+        "libc",
+        "libc++",
+        "libcam.hal3a.log",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libSonyIMX230PdafLibraryWrapper.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libSonyIMX338PdafLibrary",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libSonyIMX338PdafLibrary.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libSonyIMX338PdafLibraryWrapper",
+    compile_multilib: "64",
+    shared_libs: [
+        "libSonyIMX338PdafLibrary",
+        "libc",
+        "libc++",
+        "libcam.hal3a.log",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libSonyIMX338PdafLibraryWrapper.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libSonyIMX386PdafLibrary",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libSonyIMX386PdafLibrary.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libSonyIMX386PdafLibraryWrapper",
+    compile_multilib: "64",
+    shared_libs: [
+        "libSonyIMX386PdafLibrary",
+        "libc",
+        "libc++",
+        "libcam.hal3a.log",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libSonyIMX386PdafLibraryWrapper.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libSonyIMX519PdafLibrary",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libSonyIMX519PdafLibrary.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libSonyIMX519PdafLibraryWrapper",
+    compile_multilib: "64",
+    shared_libs: [
+        "libSonyIMX519PdafLibrary",
+        "libc",
+        "libc++",
+        "libcam.hal3a.log",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libSonyIMX519PdafLibraryWrapper.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libstblur_capture_api",
+    compile_multilib: "64",
+    shared_libs: [
+        "libEGL",
+        "libGLESv2",
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+        "libz",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libstblur_capture_api.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libstereoinfoaccessor_vsdof",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libexpat",
+        "liblog",
+        "libm",
+        "libpng",
+        "libutils",
+        "libz",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libstereoinfoaccessor_vsdof.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libst_mobile",
+    compile_multilib: "64",
+    shared_libs: [
+        "libEGL",
+        "libGLESv3",
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libst_mobile.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libtf_asd_lib",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+        "libtflite_native_inference",
+        "libz",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libtf_asd_lib.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libtflite_native_inference",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libtflite_native_inference.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libTranArcDro",
+    compile_multilib: "64",
+    shared_libs: [
+        "libTranPlatHW",
+        "libTran_Log",
+        "libarcsoft_dro",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmpbase",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libTranArcDro.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libTranArcDualRefocus",
+    compile_multilib: "64",
+    shared_libs: [
+        "libTranPlatHW",
+        "libTran_Log",
+        "libarcsoft_dualcam_refocus",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libtranssion_arc_bokeh",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libTranArcDualRefocus.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libTranArcFilter",
+    compile_multilib: "64",
+    shared_libs: [
+        "libTranPlatHW",
+        "libTran_Log",
+        "libamipengine",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmpbase",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libTranArcFilter.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libTranArcHDR",
+    compile_multilib: "64",
+    shared_libs: [
+        "libTranPlatHW",
+        "libTran_Log",
+        "libarcsoft_high_dynamic_range",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libTranArcHDR.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libTranArcLowLight",
+    compile_multilib: "64",
+    shared_libs: [
+        "libTranPlatHW",
+        "libTran_Log",
+        "libarcsoft_low_light_shot",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libTranArcLowLight.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libTranArcPicselfie",
+    compile_multilib: "64",
+    shared_libs: [
+        "libTranPlatHW",
+        "libTran_Log",
+        "libarcsoft_picselfie_algorithm",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmpbase",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libTranArcPicselfie.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libTranASD",
+    compile_multilib: "64",
+    shared_libs: [
+        "libTran_Log",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libtf_asd_lib",
+        "libtflite_native_inference",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libTranASD.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libTranDenoise",
+    compile_multilib: "64",
+    shared_libs: [
+        "libTran_Log",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdenoise",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libTranDenoise.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libTranExtImgProc",
+    compile_multilib: "64",
+    shared_libs: [
+        "libMtkSImage",
+        "libTranASD",
+        "libTranArcDro",
+        "libTranArcDualRefocus",
+        "libTranArcFilter",
+        "libTranArcHDR",
+        "libTranArcLowLight",
+        "libTranArcPicselfie",
+        "libTranDenoise",
+        "libTranFaceBeauty",
+        "libTranSTSingleBlur",
+        "libTranSlimBody",
+        "libTranUndistort",
+        "libTran_Log",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libTranExtImgProc.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libTranFaceBeauty",
+    compile_multilib: "64",
+    shared_libs: [
+        "libTranPlatHW",
+        "libTran_Log",
+        "libarcsoft_beautyshot",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmpbase",
+        "libtranssion_beauty",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libTranFaceBeauty.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libTran_Log",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libTran_Log.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libtranlog",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libtranlog.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libTranPlatHW",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.power@1.0",
+        "libTran_Log",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libmtkcam_sysutils",
+        "libutils",
+        "vendor.mediatek.hardware.power@2.0",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libTranPlatHW.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libTranSlimBody",
+    compile_multilib: "64",
+    shared_libs: [
+        "libTranPlatHW",
+        "libTran_Log",
+        "libamipengine",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmpbase",
+        "libst_mobile",
+        "libtranssion_bodybeauty",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libTranSlimBody.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libtranssion_arc_bokeh",
+    compile_multilib: "64",
+    shared_libs: [
+        "libarcsoft_dualcam_refocus",
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libtranssion_arc_bokeh.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libtranssion_beauty",
+    compile_multilib: "64",
+    shared_libs: [
+        "libarcsoft_beautyshot",
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libtranssion_beauty.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libtranssion_bodybeauty",
+    compile_multilib: "64",
+    proprietary: true,
+    allow_undefined_symbols: true,
+    target: {
+        android_arm64: {
+            srcs: ["libtranssion_bodybeauty.so"],
+        },
+    },
+    shared_libs: [
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+        "libnativewindow",
+        "libst_mobile",
+        "libGLESv2_mtk",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "libTranSTSingleBlur",
+    compile_multilib: "64",
+    shared_libs: [
+        "libTranPlatHW",
+        "libTran_Log",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libstblur_capture_api",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libTranSTSingleBlur.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libTranUndistort",
+    compile_multilib: "64",
+    shared_libs: [
+        "libTranPlatHW",
+        "libTran_Log",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libundistort_64",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libTranUndistort.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libundistort_64",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+        "libz",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libundistort_64.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libWaterMarkProc",
+    compile_multilib: "64",
+    shared_libs: [
+        "libTran_Log",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libWaterMarkProc.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libwifitest",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libnvram",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libwifitest.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libwpfa",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libccci_util",
+        "libdl",
+        "libm",
+        "libmtkcutils",
+        "libmtknetcap",
+        "libmtkrillog",
+        "libmtkutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["libwpfa.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_streaminfo_plugin-p1stt",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_hwutils",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libutils",
+    ],
+    relative_install_path: "mtkcam",
+    target: {
+        android_arm64: {
+            srcs: ["mtkcam/libmtkcam_streaminfo_plugin-p1stt.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "pblcgc02m1b_mipi_raw_IdxMgr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["pblcgc02m1b_mipi_raw_IdxMgr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "pblcgc02m1_mipi_raw_IdxMgr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["pblcgc02m1_mipi_raw_IdxMgr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "pblcgc2375hmain3_mipi_raw_IdxMgr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["pblcgc2375hmain3_mipi_raw_IdxMgr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "pblcgc2375h_mipi_raw_IdxMgr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["pblcgc2375h_mipi_raw_IdxMgr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "pblcgc6153_serial_yuv_IdxMgr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["pblcgc6153_serial_yuv_IdxMgr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "pblcgc8034_mipi_raw_IdxMgr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["pblcgc8034_mipi_raw_IdxMgr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "pblcs5k3p9sx_mipi_raw_IdxMgr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["pblcs5k3p9sx_mipi_raw_IdxMgr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "s5k3p9sx_mipi_raw_IdxMgr",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["s5k3p9sx_mipi_raw_IdxMgr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.atci@1.0",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.atci@1.0.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.camera.atms@1.0",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.camera.atms@1.0.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.camera.frhandler@1.0",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.camera.common@1.0",
+        "android.hardware.camera.device@3.2",
+        "android.hardware.graphics.common@1.0",
+        "android.hidl.memory@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.camera.security@1.0",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.camera.frhandler@1.0.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.camera.lomoeffect@1.0",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.camera.common@1.0",
+        "android.hardware.camera.device@3.2",
+        "android.hardware.graphics.common@1.0",
+        "android.hidl.memory@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.camera.lomoeffect@1.0.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.camera.postproc@1.0",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.camera.postproc@1.0.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.camera.security@1.0",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.camera.common@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.camera.security@1.0.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.engineermode@1.0",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.engineermode@1.0.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.engineermode@1.1",
+    proprietary: true,
+    check_elf_files: false,
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.engineermode@1.1.so"],
+        },
+    },
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.engineermode@1.2",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.engineermode@1.0",
+        "vendor.mediatek.hardware.engineermode@1.1",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.engineermode@1.2.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.lbs@1.0",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.lbs@1.0.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.log@1.0",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.log@1.0.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mdmonitor@1.0",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.mdmonitor@1.0.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mtkradioex@1.0",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.radio@1.0",
+        "android.hardware.radio@1.1",
+        "android.hardware.radio@1.2",
+        "android.hardware.radio@1.4",
+        "android.hidl.safe_union@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.mtkradioex@1.0.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mtkradioex@1.1",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.radio@1.0",
+        "android.hardware.radio@1.1",
+        "android.hardware.radio@1.2",
+        "android.hardware.radio@1.4",
+        "android.hidl.safe_union@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mtkradioex@1.0",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.mtkradioex@1.1.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mtkradioex@1.2",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.radio@1.0",
+        "android.hardware.radio@1.1",
+        "android.hardware.radio@1.2",
+        "android.hardware.radio@1.4",
+        "android.hidl.safe_union@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mtkradioex@1.0",
+        "vendor.mediatek.hardware.mtkradioex@1.1",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.mtkradioex@1.2.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mtkradioex@1.3",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.radio@1.0",
+        "android.hardware.radio@1.1",
+        "android.hardware.radio@1.2",
+        "android.hardware.radio@1.4",
+        "android.hidl.safe_union@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mtkradioex@1.0",
+        "vendor.mediatek.hardware.mtkradioex@1.1",
+        "vendor.mediatek.hardware.mtkradioex@1.2",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.mtkradioex@1.3.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mtkradioex@1.4",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.radio@1.0",
+        "android.hardware.radio@1.1",
+        "android.hardware.radio@1.2",
+        "android.hardware.radio@1.4",
+        "android.hidl.safe_union@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mtkradioex@1.0",
+        "vendor.mediatek.hardware.mtkradioex@1.1",
+        "vendor.mediatek.hardware.mtkradioex@1.2",
+        "vendor.mediatek.hardware.mtkradioex@1.3",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.mtkradioex@1.4.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mtkradioex@1.5",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.radio@1.0",
+        "android.hardware.radio@1.1",
+        "android.hardware.radio@1.2",
+        "android.hardware.radio@1.4",
+        "android.hidl.safe_union@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mtkradioex@1.0",
+        "vendor.mediatek.hardware.mtkradioex@1.1",
+        "vendor.mediatek.hardware.mtkradioex@1.2",
+        "vendor.mediatek.hardware.mtkradioex@1.3",
+        "vendor.mediatek.hardware.mtkradioex@1.4",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.mtkradioex@1.5.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mtkradioex@1.6",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.radio@1.0",
+        "android.hardware.radio@1.1",
+        "android.hardware.radio@1.2",
+        "android.hardware.radio@1.4",
+        "android.hidl.safe_union@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mtkradioex@1.0",
+        "vendor.mediatek.hardware.mtkradioex@1.1",
+        "vendor.mediatek.hardware.mtkradioex@1.2",
+        "vendor.mediatek.hardware.mtkradioex@1.3",
+        "vendor.mediatek.hardware.mtkradioex@1.4",
+        "vendor.mediatek.hardware.mtkradioex@1.5",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.mtkradioex@1.6.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.power@1.1",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.power@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.power@1.1.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.pplagent@1.0",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.pplagent@1.0.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.radio_op@1.1",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.radio@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.radio_op@1.1.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.radio_op@1.2",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.radio@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.radio_op@1.1",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.radio_op@1.2.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.radio_op@1.3",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.radio@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.radio_op@1.1",
+        "vendor.mediatek.hardware.radio_op@1.2",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.radio_op@1.3.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.radio_op@1.4",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.radio@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.radio_op@1.1",
+        "vendor.mediatek.hardware.radio_op@1.2",
+        "vendor.mediatek.hardware.radio_op@1.3",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.radio_op@1.4.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.radio_op@2.0",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.radio@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.radio_op@2.0.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.wifi.supplicant@2.0",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.wifi.supplicant@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.wifi.supplicant@2.0.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.wifi.supplicant@2.1",
+    compile_multilib: "64",
+    shared_libs: [
+        "android.hardware.wifi.supplicant@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.wifi.supplicant@2.0",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.mediatek.hardware.wifi.supplicant@2.1.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.transsion.hardware.rm@1.0",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.transsion.hardware.rm@1.0.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.transsion.hardware.tranlog@1.0",
+    compile_multilib: "64",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm64: {
+            srcs: ["vendor.transsion.hardware.tranlog@1.0.so"],
+        },
+    },
+    proprietary: true,
+}

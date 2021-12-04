@@ -1,0 +1,15 @@
+!.gitignore
+*.so
+*.apk
+*.apk
+*.zip
+bin/*
+!bin/*.bp
+*.xml
+*.rc
+!*.bp
+!*.mk
+!*/*.bp
+!*/*.mk
+!*/*/*.bp
+!*/*/*.mk

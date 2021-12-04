@@ -1,0 +1,10 @@
+android_app_import {
+    name: "EngineerMode",
+    apk: "EngineerMode/EngineerMode.apk",
+    dex_preopt: {
+        enabled: true,
+    },
+    default_dev_cert: true,
+    privileged: true,
+    vendor: true,
+}

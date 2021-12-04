@@ -1,0 +1,776 @@
+/*
+*  32 bit libraries
+*/
+
+optional_subdirs = [
+    "modules",
+]
+
+cc_prebuilt_library {
+    name: "vendor.sw.swfingerprint@1.0-impl",
+    compile_multilib: "32",
+    proprietary: true,
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["hw/vendor.sw.swfingerprint@1.0-impl.so"],
+        },
+    },
+    shared_libs: [
+        "libbase",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.sw.swfingerprint@1.0",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "libshowlogo",
+    compile_multilib: "32",
+    proprietary: true,
+    check_elf_files: false,
+    target: {
+        android_arm: {
+            srcs: ["libshowlogo.so"],
+        },
+    },
+    shared_libs: [
+        "libutils",
+        "libcutils",
+        "libz",
+        "liblog",
+        "libui",
+        "libbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "libfgauge_gm30",
+    compile_multilib: "32",
+    target: {
+        android_arm: {
+            srcs: ["libfgauge_gm30.so"],
+        },
+    },
+    proprietary: true,
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "libgeofence",
+    compile_multilib: "32",
+    proprietary: true,
+    allow_undefined_symbols: true,
+    target: {
+        android_arm: {
+            srcs: ["libgeofence.so"],
+        },
+    },
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "libh264dec_customize",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libh264dec_customize.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libh264dec_sa.ca7",
+    compile_multilib: "32",
+    allow_undefined_symbols: true,
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libh264dec_customize",
+        "liblog",
+        "libm",
+        "libpowerhalwrap_vendor",
+        "libthha",
+        "libvcodec_oal",
+        "libvcodec_utility",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libh264dec_sa.ca7.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libh264dec_sd.ca7",
+    compile_multilib: "32",
+    allow_undefined_symbols: true,
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libh264dec_customize",
+        "liblog",
+        "libm",
+        "libpowerhalwrap_vendor",
+        "libthha",
+        "libvcodec_oal",
+        "libvcodec_utility",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libh264dec_sd.ca7.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libh264dec_se.ca7",
+    compile_multilib: "32",
+    allow_undefined_symbols: true,
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libh264dec_customize",
+        "liblog",
+        "libm",
+        "libpowerhalwrap_vendor",
+        "libthha",
+        "libvcodec_oal",
+        "libvcodec_utility",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libh264dec_se.ca7.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libh264enc_sa.ca7",
+    compile_multilib: "32",
+    allow_undefined_symbols: true,
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+        "libvcodec_oal",
+        "libvcodec_utility",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libh264enc_sa.ca7.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libHEVCdec_sa.ca7.android",
+    compile_multilib: "32",
+    allow_undefined_symbols: true,
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "liblog",
+        "libm",
+        "libpowerhalwrap_vendor",
+        "libthha",
+        "libutils",
+        "libvcodec_oal",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libHEVCdec_sa.ca7.android.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libJpgDecPipe",
+    compile_multilib: "32",
+    shared_libs: [
+        "libSwJpgCodec",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libjpeg-alpha_vendor",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libJpgDecPipe.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmhalImageCodec",
+    compile_multilib: "32",
+    shared_libs: [
+        "libJpgDecPipe",
+        "libJpgEncPipe",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libion",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libmhalImageCodec.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmnl",
+    compile_multilib: "32",
+    proprietary: true,
+    allow_undefined_symbols: true,
+    target: {
+        android_arm: {
+            srcs: ["libmnl.so"],
+        },
+    },
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "libmp4enc_sa.ca7",
+    compile_multilib: "32",
+    allow_undefined_symbols: true,
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libvcodec_oal",
+        "libvcodec_utility",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libmp4enc_sa.ca7.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmp4enc_xa.ca7",
+    compile_multilib: "32",
+    allow_undefined_symbols: true,
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libvcodec_oal",
+        "libvcodec_utility",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libmp4enc_xa.ca7.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libMtkOmxAdpcmDec",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libMtkOmxAdpcmDec.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libMtkOmxAlacDec",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libMtkOmxAlacDec.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libMtkOmxApeDec",
+    compile_multilib: "32",
+    shared_libs: [
+        "android.hidl.allocator@1.0",
+        "android.hidl.memory@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidlmemory",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libui",
+        "libutils",
+        "vendor.mediatek.hardware.mtkcodecservice@1.1",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libMtkOmxApeDec.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libMtkOmxG711Dec",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libMtkOmxG711Dec.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libMtkOmxGsmDec",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libMtkOmxGsmDec.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libMtkOmxMp3Dec",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libMtkOmxMp3Dec.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libMtkOmxVdecEx",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libged",
+        "libgralloc_extra",
+        "libhardware",
+        "libion",
+        "libion_mtk",
+        "liblog",
+        "libm",
+        "libmhalImageCodec",
+        "libui",
+        "libutils",
+        "libvcodec_utility",
+        "libvcodecdrv",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libMtkOmxVdecEx.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libMtkOmxVenc",
+    compile_multilib: "32",
+    shared_libs: [
+        "android.hardware.media.omx@1.0",
+        "android.hardware.media@1.0",
+        "libbinder",
+        "libbwc",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libgralloc_extra",
+        "libhardware",
+        "libion",
+        "libion_mtk",
+        "liblog",
+        "libm",
+        "libui",
+        "libutils",
+        "libvcodec_utility",
+        "libvcodecdrv",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libMtkOmxVenc.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libstorage_otp",
+    compile_multilib: "32",
+    shared_libs: [
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libstorage_otp.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libSwJpgCodec",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libjpeg-alpha_vendor",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libSwJpgCodec.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libthermalalgo",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libthermalalgo.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libvc1dec_sa.ca7",
+    compile_multilib: "32",
+    allow_undefined_symbols: true,
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libvcodec_oal",
+        "libvcodec_utility",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libvc1dec_sa.ca7.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libvcodecdrv",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libion",
+        "liblog",
+        "libm",
+        "libmp4enc_sa.ca7",
+        "libmtk_drvb",
+        "libpowerhalwrap_vendor",
+        "libvc1dec_sa.ca7",
+        "libvcodec_oal",
+        "libvcodec_utility",
+        "libvp8dec_sa.ca7",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libvcodecdrv.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libvolte_core_shr",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libverno",
+        "libvolte_xdmc_shr",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libvolte_core_shr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libvolte_xdmc_shr",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libverno",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libvolte_xdmc_shr.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libvp8dec_sa.ca7",
+    compile_multilib: "32",
+    allow_undefined_symbols: true,
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+        "libvcodec_oal",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libvp8dec_sa.ca7.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libvp9dec_sa.ca7",
+    compile_multilib: "32",
+    allow_undefined_symbols: true,
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libpowerhalwrap_vendor",
+        "libthha",
+        "libvcodec_oal",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libvp9dec_sa.ca7.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libvt_custom",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libvt_custom.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.sw.swfingerprint@1.0",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["vendor.sw.swfingerprint@1.0.so"],
+        },
+    },
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libDR",
+    compile_multilib: "32",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["libDR.so"],
+        },
+    },
+    proprietary: true,
+}

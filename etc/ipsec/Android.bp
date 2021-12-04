@@ -1,0 +1,118 @@
+prebuilt_etc {
+    name: "ipsec.conf",
+    src: "ipsec.conf",
+    sub_dir: "ipsec",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "DigiCertGlobalRootCA.crt",
+    src: "ipsec.d/cacerts/DigiCertGlobalRootCA.crt",
+    sub_dir: "ipsec/ipsec.d/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "DigiCertGlobalRootG2.crt",
+    src: "ipsec.d/cacerts/DigiCertGlobalRootG2.crt",
+    sub_dir: "ipsec/ipsec.d/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "DigiCertGlobalRootG3.crt",
+    src: "ipsec.d/cacerts/DigiCertGlobalRootG3.crt",
+    sub_dir: "ipsec/ipsec.d/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "Entrust.net_Certification_Authority_2048.cer",
+    src: "ipsec.d/cacerts/Entrust.net_Certification_Authority_2048.cer",
+    sub_dir: "ipsec/ipsec.d/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "GeoTrust_PCA_G3_Root.der",
+    src: "ipsec.d/cacerts/GeoTrust_PCA_G3_Root.der",
+    sub_dir: "ipsec/ipsec.d/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "GeoTrust_Primary_CA.der",
+    src: "ipsec.d/cacerts/GeoTrust_Primary_CA.der",
+    sub_dir: "ipsec/ipsec.d/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "GeoTrust_Primary_CA_G2_ECC.der",
+    src: "ipsec.d/cacerts/GeoTrust_Primary_CA_G2_ECC.der",
+    sub_dir: "ipsec/ipsec.d/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "gold.cer",
+    src: "ipsec.d/cacerts/gold.cer",
+    sub_dir: "ipsec/ipsec.d/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "Root_CA_1003.crt",
+    src: "ipsec.d/cacerts/Root_CA_1003.crt",
+    sub_dir: "ipsec/ipsec.d/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "Root-R3.cer",
+    src: "ipsec.d/cacerts/Root-R3.cer",
+    sub_dir: "ipsec/ipsec.d/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "thawte.der",
+    src: "ipsec.d/cacerts/thawte.der",
+    sub_dir: "ipsec/ipsec.d/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "VeriSignClass3G4.der",
+    src: "ipsec.d/cacerts/VeriSignClass3G4.der",
+    sub_dir: "ipsec/ipsec.d/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "VeriSignClass3G5.der",
+    src: "ipsec.d/cacerts/VeriSignClass3G5.der",
+    sub_dir: "ipsec/ipsec.d/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "VeriSignUniversalRootCertification.der",
+    src: "ipsec.d/cacerts/VeriSignUniversalRootCertification.der",
+    sub_dir: "ipsec/ipsec.d/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "openssl.cnf",
+    src: "ssl/openssl.cnf",
+    sub_dir: "ipsec/ssl",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "strongswan.conf",
+    src: "strongswan.conf",
+    sub_dir: "ipsec",
+    vendor: true,
+}

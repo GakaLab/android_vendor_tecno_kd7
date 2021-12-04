@@ -1,0 +1,1113 @@
+prebuilt_etc {
+    name: "00673b5b.0",
+    src: "cacerts/00673b5b.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "04f60c28.0",
+    src: "cacerts/04f60c28.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "0d69c7e1.0",
+    src: "cacerts/0d69c7e1.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "10531352.0",
+    src: "cacerts/10531352.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "111e6273.0",
+    src: "cacerts/111e6273.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "12d55845.0",
+    src: "cacerts/12d55845.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "17b51fe6.0",
+    src: "cacerts/17b51fe6.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "1dcd6f4c.0",
+    src: "cacerts/1dcd6f4c.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "1df5a75f.0",
+    src: "cacerts/1df5a75f.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "1e1eab7c.0",
+    src: "cacerts/1e1eab7c.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "1e8e7201.0",
+    src: "cacerts/1e8e7201.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "1eb37bdf.0",
+    src: "cacerts/1eb37bdf.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "1f58a078.0",
+    src: "cacerts/1f58a078.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "21855f49.0",
+    src: "cacerts/21855f49.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "219d9499.0",
+    src: "cacerts/219d9499.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "23f4c490.0",
+    src: "cacerts/23f4c490.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "27af790d.0",
+    src: "cacerts/27af790d.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "2add47b6.0",
+    src: "cacerts/2add47b6.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "2d9dafe4.0",
+    src: "cacerts/2d9dafe4.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "2fa87019.0",
+    src: "cacerts/2fa87019.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "302904dd.0",
+    src: "cacerts/302904dd.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "304d27c3.0",
+    src: "cacerts/304d27c3.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "31188b5e.0",
+    src: "cacerts/31188b5e.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "33ee480d.0",
+    src: "cacerts/33ee480d.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "343eb6cb.0",
+    src: "cacerts/343eb6cb.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "35105088.0",
+    src: "cacerts/35105088.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "399e7759.0",
+    src: "cacerts/399e7759.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "3a3b02ce.0",
+    src: "cacerts/3a3b02ce.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "3ad48a91.0",
+    src: "cacerts/3ad48a91.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "3c58f906.0",
+    src: "cacerts/3c58f906.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "3c6676aa.0",
+    src: "cacerts/3c6676aa.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "3c860d51.0",
+    src: "cacerts/3c860d51.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "3c899c73.0",
+    src: "cacerts/3c899c73.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "3c9a4d3b.0",
+    src: "cacerts/3c9a4d3b.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "3d441de8.0",
+    src: "cacerts/3d441de8.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "3e7271e8.0",
+    src: "cacerts/3e7271e8.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "40dc992e.0",
+    src: "cacerts/40dc992e.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "455f1b52.0",
+    src: "cacerts/455f1b52.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "48a195d8.0",
+    src: "cacerts/48a195d8.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "4be590e0.0",
+    src: "cacerts/4be590e0.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "4e18c148.0",
+    src: "cacerts/4e18c148.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "5046c355.0",
+    src: "cacerts/5046c355.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "524d9b43.0",
+    src: "cacerts/524d9b43.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "52b525c7.0",
+    src: "cacerts/52b525c7.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "559f7c71.0",
+    src: "cacerts/559f7c71.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "583d0756.0",
+    src: "cacerts/583d0756.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "5a250ea7.0",
+    src: "cacerts/5a250ea7.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "5a3f0ff8.0",
+    src: "cacerts/5a3f0ff8.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "5acf816d.0",
+    src: "cacerts/5acf816d.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "5cf9d536.0",
+    src: "cacerts/5cf9d536.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "5e4e69e7.0",
+    src: "cacerts/5e4e69e7.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "5f47b495.0",
+    src: "cacerts/5f47b495.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "60afe812.0",
+    src: "cacerts/60afe812.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "6187b673.0",
+    src: "cacerts/6187b673.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "63a2c897.0",
+    src: "cacerts/63a2c897.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "67495436.0",
+    src: "cacerts/67495436.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "69105f4f.0",
+    src: "cacerts/69105f4f.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "6b03dec0.0",
+    src: "cacerts/6b03dec0.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "75680d2e.0",
+    src: "cacerts/75680d2e.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "76579174.0",
+    src: "cacerts/76579174.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "7892ad52.0",
+    src: "cacerts/7892ad52.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "7999be0d.0",
+    src: "cacerts/7999be0d.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "7a7c655d.0",
+    src: "cacerts/7a7c655d.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "7a819ef2.0",
+    src: "cacerts/7a819ef2.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "7c302982.0",
+    src: "cacerts/7c302982.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "7d453d8f.0",
+    src: "cacerts/7d453d8f.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "81b9768f.0",
+    src: "cacerts/81b9768f.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "82223c44.0",
+    src: "cacerts/82223c44.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "85cde254.0",
+    src: "cacerts/85cde254.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "86212b19.0",
+    src: "cacerts/86212b19.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "87753b0d.0",
+    src: "cacerts/87753b0d.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "882de061.0",
+    src: "cacerts/882de061.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "88950faa.0",
+    src: "cacerts/88950faa.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "89c02a45.0",
+    src: "cacerts/89c02a45.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "8d6437c3.0",
+    src: "cacerts/8d6437c3.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "91739615.0",
+    src: "cacerts/91739615.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "9282e51c.0",
+    src: "cacerts/9282e51c.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "9339512a.0",
+    src: "cacerts/9339512a.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "9479c8c3.0",
+    src: "cacerts/9479c8c3.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "9576d26b.0",
+    src: "cacerts/9576d26b.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "95aff9e3.0",
+    src: "cacerts/95aff9e3.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "9685a493.0",
+    src: "cacerts/9685a493.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "9772ca32.0",
+    src: "cacerts/9772ca32.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "985c1f52.0",
+    src: "cacerts/985c1f52.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "9d6523ce.0",
+    src: "cacerts/9d6523ce.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "9f533518.0",
+    src: "cacerts/9f533518.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "a2c66da8.0",
+    src: "cacerts/a2c66da8.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "a3896b44.0",
+    src: "cacerts/a3896b44.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "a7605362.0",
+    src: "cacerts/a7605362.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "a7d2cf64.0",
+    src: "cacerts/a7d2cf64.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "a81e292b.0",
+    src: "cacerts/a81e292b.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ab5346f4.0",
+    src: "cacerts/ab5346f4.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ab59055e.0",
+    src: "cacerts/ab59055e.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "aeb67534.0",
+    src: "cacerts/aeb67534.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "b0ed035a.0",
+    src: "cacerts/b0ed035a.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "b0f3e76e.0",
+    src: "cacerts/b0f3e76e.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "b3fb433b.0",
+    src: "cacerts/b3fb433b.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "b7db1890.0",
+    src: "cacerts/b7db1890.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "b872f2b4.0",
+    src: "cacerts/b872f2b4.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "b936d1c6.0",
+    src: "cacerts/b936d1c6.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "bc3f2570.0",
+    src: "cacerts/bc3f2570.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "bdacca6f.0",
+    src: "cacerts/bdacca6f.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "bf64f35b.0",
+    src: "cacerts/bf64f35b.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "c2c1704e.0",
+    src: "cacerts/c2c1704e.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "c491639e.0",
+    src: "cacerts/c491639e.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "c51c224c.0",
+    src: "cacerts/c51c224c.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "c559d742.0",
+    src: "cacerts/c559d742.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "c7e2a638.0",
+    src: "cacerts/c7e2a638.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "c907e29b.0",
+    src: "cacerts/c907e29b.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "c90bc37d.0",
+    src: "cacerts/c90bc37d.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "cb156124.0",
+    src: "cacerts/cb156124.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "cb1c3204.0",
+    src: "cacerts/cb1c3204.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ccc52f49.0",
+    src: "cacerts/ccc52f49.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "cf701eeb.0",
+    src: "cacerts/cf701eeb.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "d06393bb.0",
+    src: "cacerts/d06393bb.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "d0cddf45.0",
+    src: "cacerts/d0cddf45.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "d16a5865.0",
+    src: "cacerts/d16a5865.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "d18e9066.0",
+    src: "cacerts/d18e9066.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "d41b5e2a.0",
+    src: "cacerts/d41b5e2a.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "d4c339cb.0",
+    src: "cacerts/d4c339cb.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "d59297b8.0",
+    src: "cacerts/d59297b8.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "d6e6eab9.0",
+    src: "cacerts/d6e6eab9.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "d7746a63.0",
+    src: "cacerts/d7746a63.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "d8317ada.0",
+    src: "cacerts/d8317ada.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "da7377f6.0",
+    src: "cacerts/da7377f6.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "dbc54cab.0",
+    src: "cacerts/dbc54cab.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "dc99f41e.0",
+    src: "cacerts/dc99f41e.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "dfc0fe80.0",
+    src: "cacerts/dfc0fe80.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "e442e424.0",
+    src: "cacerts/e442e424.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "e48193cf.0",
+    src: "cacerts/e48193cf.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "e775ed2d.0",
+    src: "cacerts/e775ed2d.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "e8651083.0",
+    src: "cacerts/e8651083.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ed39abd0.0",
+    src: "cacerts/ed39abd0.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "f013ecaf.0",
+    src: "cacerts/f013ecaf.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "facacbc6.0",
+    src: "cacerts/facacbc6.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fb5fa911.0",
+    src: "cacerts/fb5fa911.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fd08c599.0",
+    src: "cacerts/fd08c599.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fde84897.0",
+    src: "cacerts/fde84897.0",
+    sub_dir: "security/cacerts",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "7651b327.0",
+    src: "cacerts_supl/7651b327.0",
+    sub_dir: "security/cacerts_supl",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "848ea856.0",
+    src: "cacerts_supl/848ea856.0",
+    sub_dir: "security/cacerts_supl",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "c542733d.0",
+    src: "cacerts_supl/c542733d.0",
+    sub_dir: "security/cacerts_supl",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "f336e3d1.0",
+    src: "cacerts_supl/f336e3d1.0",
+    sub_dir: "security/cacerts_supl",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "18dc3a8d.0",
+    src: "cacerts_supl/lab/18dc3a8d.0",
+    sub_dir: "security/cacerts_supl/lab",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "1bc5ca0c.0",
+    src: "cacerts_supl/lab/1bc5ca0c.0",
+    sub_dir: "security/cacerts_supl/lab",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "1bc5ca0c.1",
+    src: "cacerts_supl/lab/1bc5ca0c.1",
+    sub_dir: "security/cacerts_supl/lab",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "2cbfcc3a.0",
+    src: "cacerts_supl/lab/2cbfcc3a.0",
+    sub_dir: "security/cacerts_supl/lab",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "35ef1c14.0",
+    src: "cacerts_supl/lab/35ef1c14.0",
+    sub_dir: "security/cacerts_supl/lab",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "35ef1c14.1",
+    src: "cacerts_supl/lab/35ef1c14.1",
+    sub_dir: "security/cacerts_supl/lab",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "35ef1c14.2",
+    src: "cacerts_supl/lab/35ef1c14.2",
+    sub_dir: "security/cacerts_supl/lab",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "35ef1c14.3",
+    src: "cacerts_supl/lab/35ef1c14.3",
+    sub_dir: "security/cacerts_supl/lab",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "35ef1c14.4",
+    src: "cacerts_supl/lab/35ef1c14.4",
+    sub_dir: "security/cacerts_supl/lab",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "586933d9.0",
+    src: "cacerts_supl/lab/586933d9.0",
+    sub_dir: "security/cacerts_supl/lab",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "66272d0d.0",
+    src: "cacerts_supl/lab/66272d0d.0",
+    sub_dir: "security/cacerts_supl/lab",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "a64489a3.0",
+    src: "cacerts_supl/lab/a64489a3.0",
+    sub_dir: "security/cacerts_supl/lab",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "a64489a3.1",
+    src: "cacerts_supl/lab/a64489a3.1",
+    sub_dir: "security/cacerts_supl/lab",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "b5805141.0",
+    src: "cacerts_supl/lab/b5805141.0",
+    sub_dir: "security/cacerts_supl/lab",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "c9dbfc2e.0",
+    src: "cacerts_supl/lab/c9dbfc2e.0",
+    sub_dir: "security/cacerts_supl/lab",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ed7b215e.0",
+    src: "cacerts_supl/lab/ed7b215e.0",
+    sub_dir: "security/cacerts_supl/lab",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ef4b31e6.0",
+    src: "cacerts_supl/lab/ef4b31e6.0",
+    sub_dir: "security/cacerts_supl/lab",
+    vendor: true,
+}
+

@@ -1,0 +1,62 @@
+prebuilt_etc {
+    name: "blacklist.json",
+    src: "blacklist.json",
+    sub_dir: "performance",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "policy_config_2g_ram.json",
+    src: "policy_config_2g_ram.json",
+    sub_dir: "performance",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "policy_config_3g_ram.json",
+    src: "policy_config_3g_ram.json",
+    sub_dir: "performance",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "policy_config_4g_ram.json",
+    src: "policy_config_4g_ram.json",
+    sub_dir: "performance",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "policy_config_6g_ram.json",
+    src: "policy_config_6g_ram.json",
+    sub_dir: "performance",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "whitelist_2g_ram.json",
+    src: "whitelist_2g_ram.json",
+    sub_dir: "performance",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "whitelist_3g_ram.json",
+    src: "whitelist_3g_ram.json",
+    sub_dir: "performance",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "whitelist_4g_ram.json",
+    src: "whitelist_4g_ram.json",
+    sub_dir: "performance",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "whitelist_6g_ram.json",
+    src: "whitelist_6g_ram.json",
+    sub_dir: "performance",
+    vendor: true,
+}

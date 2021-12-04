@@ -1,0 +1,671 @@
+prebuilt_etc_xml {
+    name: "AudioParamOptions.xml",
+    src: "AudioParamOptions.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "BtInfo_AudioParam.xml",
+    src: "BtInfo_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "BtInfo_ParamUnitDesc.xml",
+    src: "BtInfo_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "HpImpedance_AudioParam.xml",
+    src: "HpImpedance_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "HpImpedance_ParamUnitDesc.xml",
+    src: "HpImpedance_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "MicInfo_AudioParam.xml",
+    src: "MicInfo_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "MicInfo_ParamUnitDesc.xml",
+    src: "MicInfo_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "PlaybackACF_AudioParam.xml",
+    src: "PlaybackACF_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "PlaybackACF_ParamUnitDesc.xml",
+    src: "PlaybackACF_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "Playback_AudioParam.xml",
+    src: "Playback_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "PlaybackDRC_AudioParam.xml",
+    src: "PlaybackDRC_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "PlaybackDRC_ParamUnitDesc.xml",
+    src: "PlaybackDRC_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "PlaybackHCF_AudioParam.xml",
+    src: "PlaybackHCF_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "PlaybackHCF_ParamUnitDesc.xml",
+    src: "PlaybackHCF_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "Playback_ParamTreeView.xml",
+    src: "Playback_ParamTreeView.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "Playback_ParamUnitDesc.xml",
+    src: "Playback_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "PlaybackVolAna_AudioParam.xml",
+    src: "PlaybackVolAna_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "PlaybackVolAna_ParamUnitDesc.xml",
+    src: "PlaybackVolAna_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "PlaybackVolDigi_AudioParam.xml",
+    src: "PlaybackVolDigi_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "PlaybackVolDigi_ParamUnitDesc.xml",
+    src: "PlaybackVolDigi_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "PlaybackVolUI_AudioParam.xml",
+    src: "PlaybackVolUI_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "PlaybackVolUI_ParamUnitDesc.xml",
+    src: "PlaybackVolUI_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "Record_AudioParam.xml",
+    src: "Record_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "RecordDMNR_AudioParam.xml",
+    src: "RecordDMNR_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "RecordDMNR_ParamUnitDesc.xml",
+    src: "RecordDMNR_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "RecordFIR_AudioParam.xml",
+    src: "RecordFIR_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "RecordFIR_ParamUnitDesc.xml",
+    src: "RecordFIR_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "Record_ParamTreeView.xml",
+    src: "Record_ParamTreeView.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "Record_ParamUnitDesc.xml",
+    src: "Record_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "RecordUI_AudioParam.xml",
+    src: "RecordUI_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "RecordUI_ParamUnitDesc.xml",
+    src: "RecordUI_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "RecordVol_AudioParam.xml",
+    src: "RecordVol_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "RecordVol_ParamUnitDesc.xml",
+    src: "RecordVol_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "RecordVolUI_AudioParam.xml",
+    src: "RecordVolUI_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "RecordVolUI_ParamUnitDesc.xml",
+    src: "RecordVolUI_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "RingbackVol_AudioParam.xml",
+    src: "RingbackVol_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "RingbackVol_ParamUnitDesc.xml",
+    src: "RingbackVol_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "RingbackVolUI_AudioParam.xml",
+    src: "RingbackVolUI_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "RingbackVolUI_ParamUnitDesc.xml",
+    src: "RingbackVolUI_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SoundEnhancement_AudioParam.xml",
+    src: "SoundEnhancement_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SoundEnhancement_ParamUnitDesc.xml",
+    src: "SoundEnhancement_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "Speech_AudioParam.xml",
+    src: "Speech_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SpeechDMNR_AudioParam.xml",
+    src: "SpeechDMNR_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SpeechDMNR_ParamUnitDesc.xml",
+    src: "SpeechDMNR_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SpeechEchoRef_AudioParam.xml",
+    src: "SpeechEchoRef_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SpeechEchoRef_ParamUnitDesc.xml",
+    src: "SpeechEchoRef_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SpeechGeneral_AudioParam.xml",
+    src: "SpeechGeneral_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SpeechGeneral_ParamUnitDesc.xml",
+    src: "SpeechGeneral_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SpeechMagiClarity_AudioParam.xml",
+    src: "SpeechMagiClarity_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SpeechMagiClarity_ParamUnitDesc.xml",
+    src: "SpeechMagiClarity_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SpeechNetwork_AudioParam.xml",
+    src: "SpeechNetwork_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SpeechNetwork_ParamUnitDesc.xml",
+    src: "SpeechNetwork_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "Speech_ParamTreeView.xml",
+    src: "Speech_ParamTreeView.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "Speech_ParamUnitDesc.xml",
+    src: "Speech_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SpeechUI_AudioParam.xml",
+    src: "SpeechUI_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SpeechUI_ParamUnitDesc.xml",
+    src: "SpeechUI_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SpeechVol_AudioParam.xml",
+    src: "SpeechVol_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SpeechVol_ParamUnitDesc.xml",
+    src: "SpeechVol_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SpeechVolUI_AudioParam.xml",
+    src: "SpeechVolUI_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "SpeechVolUI_ParamUnitDesc.xml",
+    src: "SpeechVolUI_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "UplinkConfiguration_AudioParam.xml",
+    src: "UplinkConfiguration_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "UplinkConfiguration_ParamUnitDesc.xml",
+    src: "UplinkConfiguration_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "USBCall_AudioParam.xml",
+    src: "USBCall_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "USBCall_ParamUnitDesc.xml",
+    src: "USBCall_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "USBDevice_AudioParam.xml",
+    src: "USBDevice_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "USBDevice_ParamUnitDesc.xml",
+    src: "USBDevice_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIP_AudioParam.xml",
+    src: "VoIP_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPDMNR_AudioParam.xml",
+    src: "VoIPDMNR_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPDMNR_ParamUnitDesc.xml",
+    src: "VoIPDMNR_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPGeneral_AudioParam.xml",
+    src: "VoIPGeneral_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPGeneral_ParamUnitDesc.xml",
+    src: "VoIPGeneral_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIP_ParamTreeView.xml",
+    src: "VoIP_ParamTreeView.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIP_ParamUnitDesc.xml",
+    src: "VoIP_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPUI_AudioParam.xml",
+    src: "VoIPUI_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPUI_ParamUnitDesc.xml",
+    src: "VoIPUI_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPv2_AudioParam.xml",
+    src: "VoIPv2_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPv2DMNR_AudioParam.xml",
+    src: "VoIPv2DMNR_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPv2DMNR_ParamUnitDesc.xml",
+    src: "VoIPv2DMNR_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPv2General_AudioParam.xml",
+    src: "VoIPv2General_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPv2General_ParamUnitDesc.xml",
+    src: "VoIPv2General_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPv2_ParamTreeView.xml",
+    src: "VoIPv2_ParamTreeView.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPv2_ParamUnitDesc.xml",
+    src: "VoIPv2_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPv2UI_AudioParam.xml",
+    src: "VoIPv2UI_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPv2UI_ParamUnitDesc.xml",
+    src: "VoIPv2UI_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPVol_AudioParam.xml",
+    src: "VoIPVol_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPVol_ParamUnitDesc.xml",
+    src: "VoIPVol_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPVolUI_AudioParam.xml",
+    src: "VoIPVolUI_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VoIPVolUI_ParamUnitDesc.xml",
+    src: "VoIPVolUI_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "Volume_AudioParam.xml",
+    src: "Volume_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VolumeGainMap_AudioParam.xml",
+    src: "VolumeGainMap_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VolumeGainMap_ParamUnitDesc.xml",
+    src: "VolumeGainMap_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VolumeGainMapUL_AudioParam.xml",
+    src: "VolumeGainMapUL_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VolumeGainMapUL_ParamUnitDesc.xml",
+    src: "VolumeGainMapUL_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "Volume_ParamUnitDesc.xml",
+    src: "Volume_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VOW_AudioParam.xml",
+    src: "VOW_AudioParam.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}
+
+prebuilt_etc_xml {
+    name: "VOW_ParamUnitDesc.xml",
+    src: "VOW_ParamUnitDesc.xml",
+    sub_dir: "audio_param",
+    vendor: true,
+}

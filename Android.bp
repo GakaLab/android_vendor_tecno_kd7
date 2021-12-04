@@ -1,0 +1,4827 @@
+/*
+*  multibit libraries
+*/
+
+optional_subdirs = [
+    "*/*/*",
+]
+
+cc_prebuilt_library {
+    name: "libGLES_meow",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libnativewindow",
+    ],
+    relative_install_path: "egl",
+    target: {
+        android_arm: {
+            srcs: ["lib/egl/libGLES_meow.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/egl/libGLES_meow.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libGLESv1_CM_mtk",
+    shared_libs: [
+        "libIMGegl",
+        "libc",
+        "libged",
+        "libgpu_aux",
+        "libgpud",
+        "libgralloc_extra",
+        "libm",
+        "libsrv_um",
+        "libsync",
+        "libusc",
+    ],
+    relative_install_path: "egl",
+    target: {
+        android_arm: {
+            srcs: ["lib/egl/libGLESv1_CM_mtk.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/egl/libGLESv1_CM_mtk.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libGLESv2_mtk",
+    shared_libs: [
+        "libIMGegl",
+        "libc",
+        "libged",
+        "libglslcompiler",
+        "libgpu_aux",
+        "libgpud",
+        "libgralloc_extra",
+        "libm",
+        "libsrv_um",
+        "libsync",
+        "libusc",
+    ],
+    relative_install_path: "egl",
+    target: {
+        android_arm: {
+            srcs: ["lib/egl/libGLESv2_mtk.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/egl/libGLESv2_mtk.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "gc02m1b_mipi_raw_tuning",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/gc02m1b_mipi_raw_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/gc02m1b_mipi_raw_tuning.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "gc02m1_mipi_raw_tuning",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/gc02m1_mipi_raw_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/gc02m1_mipi_raw_tuning.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "gc2375hmain3_mipi_raw_tuning",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/gc2375hmain3_mipi_raw_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/gc2375hmain3_mipi_raw_tuning.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "gc2375h_mipi_raw_tuning",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/gc2375h_mipi_raw_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/gc2375h_mipi_raw_tuning.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "gc6153_serial_yuv_tuning",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/gc6153_serial_yuv_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/gc6153_serial_yuv_tuning.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "gc8034_mipi_raw_tuning",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/gc8034_mipi_raw_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/gc8034_mipi_raw_tuning.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "android.hardware.audio@5.0-impl-mediatek",
+    relative_install_path: "hw",
+    proprietary: true,
+    allow_undefined_symbols: true,
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/android.hardware.audio@5.0-impl-mediatek.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/android.hardware.audio@5.0-impl-mediatek.so"],
+        },
+    }, 
+    shared_libs: [
+        "android.hardware.audio.common-util",
+        "android.hardware.audio.common@5.0",
+        "android.hardware.audio.common@5.0-util",
+        "android.hardware.audio@5.0",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libfmq",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libmedia_helper",
+        "libutils",
+        "vendor.mediatek.hardware.audio@5.1",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "android.hardware.bluetooth@1.0-impl-mediatek",
+    shared_libs: [
+        "android.hardware.bluetooth@1.0",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "android.hardware.bluetooth.audio@2.0-impl-mediatek",
+    shared_libs: [
+        "android.hardware.audio.common@5.0",
+        "android.hardware.bluetooth.audio@2.0",
+        "libbase",
+        "libbluetooth_audio_session_mediatek",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libfmq",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "android.hardware.light@2.0-impl-mediatek",
+    shared_libs: [
+        "android.hardware.light@2.0",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/android.hardware.light@2.0-impl-mediatek.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/android.hardware.light@2.0-impl-mediatek.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "android.hardware.power@1.3-impl-mediatek",
+    shared_libs: [
+        "android.hardware.power@1.0",
+        "android.hardware.power@1.1",
+        "android.hardware.power@1.2",
+        "android.hardware.power@1.3",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/android.hardware.power@1.3-impl-mediatek.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/android.hardware.power@1.3-impl-mediatek.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "audio.primary.mt6765",
+    relative_install_path: "hw",
+    proprietary: true,
+    allow_undefined_symbols: true,
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/audio.primary.mt6765.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/audio.primary.mt6765.so"],
+        },
+    }, 
+    shared_libs: [
+        "android.hardware.bluetooth.a2dp@1.0",
+        "android.hardware.power@1.0",
+        "libaedv",
+        "libalsautils",
+        "libaudiotoolkit_vendor",
+        "libaudioutils",
+        "libc",
+        "libc++",
+        "libccci_util",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhardware_legacy",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "libladder",
+        "liblog",
+        "libm",
+        "libmedia_helper",
+        "libtinyalsa",
+        "libtinycompress",
+        "libtinyxml",
+        "libutils",
+        "libxml2",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+        "vendor.mediatek.hardware.power@2.0",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "audio.r_submix.mt6765",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libnbaio_mono",
+        "libutils",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/audio.r_submix.mt6765.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/audio.r_submix.mt6765.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "audio.usb.mt6765",
+    shared_libs: [
+        "libalsautils",
+        "libaudiocustparam_vendor",
+        "libaudioutils",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libtinyalsa",
+        "libtinycompress",
+        "libutils",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/audio.usb.mt6765.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/audio.usb.mt6765.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "gatekeeper.mt6765",
+    shared_libs: [
+        "libTEECommon",
+        "libc",
+        "libc++",
+        "libdl",
+        "libimsg_log",
+        "liblog",
+        "libm",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/gatekeeper.mt6765.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/gatekeeper.mt6765.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "gralloc.mt6765",
+    check_elf_files: false,
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libdl",
+        "libdrm",
+        "libgralloc_extra",
+        "libhardware",
+        "libion",
+        "libion_mtk",
+        "liblog",
+        "libm",
+        "libsync",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/gralloc.mt6765.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/gralloc.mt6765.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "kmsetkey.mt6765",
+    shared_libs: [
+        "libTEECommon",
+        "libc",
+        "libc++",
+        "libdl",
+        "libimsg_log",
+        "liblog",
+        "libm",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/kmsetkey.mt6765.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/kmsetkey.mt6765.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "lights.mt6765",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/lights.mt6765.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/lights.mt6765.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "memtrack.mt6765",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libmemtrack_GL",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/memtrack.mt6765.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/memtrack.mt6765.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "power.mt6765",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/power.mt6765.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/power.mt6765.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "sound_trigger.primary.mt6765",
+    shared_libs: [
+        "android.hardware.bluetooth.a2dp@1.0",
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhardware_legacy",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libmedia_helper",
+        "libutils",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/sound_trigger.primary.mt6765.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/sound_trigger.primary.mt6765.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "thermal.mt6765",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/thermal.mt6765.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/thermal.mt6765.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.camera.bgservice@1.1-impl",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcamera_metadata",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libmtkcam.eventcallback",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+        "vendor.mediatek.hardware.camera.bgservice@1.0",
+        "vendor.mediatek.hardware.camera.bgservice@1.1",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.keymaster_attestation@1.1-impl",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.keymaster_attestation@1.0",
+        "vendor.mediatek.hardware.keymaster_attestation@1.1",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mms@1.5-impl",
+    shared_libs: [
+        "libJpgEncPipe",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libgralloc_extra",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "libion",
+        "libion_mtk",
+        "liblog",
+        "libm",
+        "libsync",
+        "libutils",
+        "vendor.mediatek.hardware.mms@1.0",
+        "vendor.mediatek.hardware.mms@1.1",
+        "vendor.mediatek.hardware.mms@1.2",
+        "vendor.mediatek.hardware.mms@1.3",
+        "vendor.mediatek.hardware.mms@1.4",
+        "vendor.mediatek.hardware.mms@1.5",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/vendor.mediatek.hardware.mms@1.5-impl.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mtkcodecservice@1.1-impl",
+    shared_libs: [
+        "android.hidl.allocator@1.0",
+        "android.hidl.memory@1.0",
+        "libaudioutils",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidlmemory",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mtkcodecservice@1.1",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mtkpower@1.0-impl",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.nvram@1.1-impl",
+    shared_libs: [
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libfile_op",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libnvram",
+        "libutils",
+        "vendor.mediatek.hardware.nvram@1.0",
+        "vendor.mediatek.hardware.nvram@1.1",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.power@2.1-impl",
+    shared_libs: [
+        "android.hardware.power@1.0",
+        "android.hardware.power@1.1",
+        "android.hardware.power@1.2",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.power@2.0",
+        "vendor.mediatek.hardware.power@2.1",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/vendor.mediatek.hardware.power@2.1-impl.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/vendor.mediatek.hardware.power@2.1-impl.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.pq@2.3-impl",
+    shared_libs: [
+        "android.hidl.allocator@1.0",
+        "android.hidl.memory@1.0",
+        "libaalservice",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidlmemory",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libpq_prot",
+        "libutils",
+        "vendor.mediatek.hardware.pq@2.0",
+        "vendor.mediatek.hardware.pq@2.1",
+        "vendor.mediatek.hardware.pq@2.2",
+        "vendor.mediatek.hardware.pq@2.3",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/vendor.mediatek.hardware.pq@2.3-impl.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/vendor.mediatek.hardware.pq@2.3-impl.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.videotelephony@1.0-impl",
+    shared_libs: [
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libfmq",
+        "libhidlbase",
+        "libhidltransport",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.videotelephony@1.0",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vulkan.mt6765",
+    check_elf_files: false,
+    shared_libs: [
+        "libc",
+        "libdl",
+        "libged",
+        "libgpu_aux",
+        "libgpud",
+        "libgralloc_extra",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libnativewindow",
+        "libsrv_um",
+        "libsync",
+        "libufwriter",
+        "libusc",
+    ],
+    relative_install_path: "hw",
+    target: {
+        android_arm: {
+            srcs: ["lib/hw/vulkan.mt6765.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/hw/vulkan.mt6765.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libaal_cust",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libaal_cust.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libaal_cust.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libaal_key",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libaal_key.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libaal_key.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libaal_mtk",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libaal_mtk.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libaal_mtk.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libaalservice",
+    shared_libs: [
+        "android.frameworks.sensorservice@1.0",
+        "android.hardware.sensors@1.0",
+        "libaal_mtk",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libsensorndkbridge",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libaalservice.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libaalservice.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libaedv",
+    proprietary: true,
+    allow_undefined_symbols: true,
+    target: {
+        android_arm: {
+            srcs: ["lib/libaedv.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libaedv.so"],
+        },
+    },
+    shared_libs: [
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libunwindstack",
+        "libz",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "libaudiocompensationfilterc",
+    shared_libs: [
+        "libaudiocustparam_vendor",
+        "libc",
+        "libc++",
+        "libcustom_nvram",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libnvram",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libaudiocompensationfilterc.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libaudiocompensationfilterc.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libaudiocompensationfilter_vendor",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcustom_nvram",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libnvram",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libaudiocompensationfilter_vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libaudiocompensationfilter_vendor.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libaudiocomponentenginec",
+    shared_libs: [
+        "libblisrc32_vendor",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtklimiter_vendor",
+        "libmtkshifter_vendor",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libaudiocomponentenginec.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libaudiocomponentenginec.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libaudiocomponentengine_vendor",
+    shared_libs: [
+        "libaudiocompensationfilter_vendor",
+        "libaudiodcrflt_vendor",
+        "libbessound_hd_mtk_vendor",
+        "libblisrc32_vendor",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtklimiter_vendor",
+        "libmtkshifter_vendor",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libaudiocomponentengine_vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libaudiocomponentengine_vendor.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libaudiocustparam_vendor",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcustom_nvram",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libnvram",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libaudiocustparam_vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libaudiocustparam_vendor.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libaudiodcrflt_vendor",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libaudiodcrflt_vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libaudiodcrflt_vendor.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libaudiofmtconv",
+    shared_libs: [
+        "libblisrc32_vendor",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkshifter_vendor",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libaudiofmtconv.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libaudiofmtconv.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libaudioloudc",
+    shared_libs: [
+        "libaudiocompensationfilterc",
+        "libbessound_hd_mtk_vendor",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libnvram",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libaudioloudc.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libaudioloudc.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libaudio_param_parser-vnd",
+    shared_libs: [
+        "libaudiocustparam_vendor",
+        "libaudioprimarydevicehalifclient",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+        "libxml2",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libaudio_param_parser-vnd.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libaudio_param_parser-vnd.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libaudioprimarydevicehalifclient",
+    shared_libs: [
+        "android.hardware.audio.common@5.0",
+        "android.hardware.audio.common@5.0-util",
+        "android.hardware.audio@5.0",
+        "libbase",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libmedia_helper",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libaudioprimarydevicehalifclient.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libaudioprimarydevicehalifclient.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libaudiotoolkit_vendor",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libaudiotoolkit_vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libaudiotoolkit_vendor.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libaurisysdemo",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libaurisysdemo.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libaurisysdemo.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libbessound_hd_mtk_vendor",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libbessound_hd_mtk_vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libbessound_hd_mtk_vendor.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libblisrc32_vendor",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libblisrc32_vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libblisrc32_vendor.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libbluetooth_audio_session_mediatek",
+    shared_libs: [
+        "android.hardware.bluetooth.audio@2.0",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libfmq",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libbluetooth_audio_session_mediatek.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libbluetooth_audio_session_mediatek.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libbluetoothem_mtk",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libbluetoothem_mtk.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libbluetoothem_mtk.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libbluetooth_hw_test",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libbluetooth_hw_test.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libbluetooth_hw_test.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libbluetooth_mtk_pure",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libnvram",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libbluetooth_mtk_pure.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libbluetooth_mtk_pure.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libbluetooth_mtk",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libnvram",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libbluetooth_mtk.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libbluetooth_mtk.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libbluetooth_relayer",
+    shared_libs: [
+        "libbluetoothem_mtk",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libbluetooth_relayer.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libbluetooth_relayer.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libBnMtkCodec",
+    shared_libs: [
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libui",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libBnMtkCodec.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libBnMtkCodec.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libbt-vendor",
+    shared_libs: [
+        "libbluetooth_mtk",
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libbt-vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libbt-vendor.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libbwc",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libbwc.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libbwc.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcares_naptr",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libcares_naptr.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libcares_naptr.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcarrierconfig",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+        "libmtkcutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libcarrierconfig.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libcarrierconfig.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libccci_util",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libccci_util.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libccci_util.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcharon-ss",
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libhydra",
+        "liblog",
+        "libm",
+        "libsimaka",
+        "libstrongswan",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libcharon-ss.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libcharon-ss.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libchiponeic_fingerprint_factory",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.fpsensor.hardware.fpsensorhidlsvc@2.0",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libchiponeic_fingerprint_factory.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libchiponeic_fingerprint_factory.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcrypto-ss",
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libcrypto-ss.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libcrypto-ss.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcurl-ss",
+    shared_libs: [
+        "libc",
+        "libcrypto-ss",
+        "liblog",
+        "libm",
+        "libssl-ss",
+        "libz",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libcurl-ss.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libcurl-ss.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcurl_xcap_md",
+    shared_libs: [
+        "libc",
+        "libcrypto",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libssl",
+        "libverno",
+        "libz",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libcurl_xcap_md.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libcurl_xcap_md.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcustom_nvram",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libcustom_nvram.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libcustom_nvram.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libcvsd_mtk",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libcvsd_mtk.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libcvsd_mtk.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libdirect-coredump",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libdirect-coredump.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libdirect-coredump.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libdpframework",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libgralloc_extra",
+        "libhardware",
+        "libhidlbase",
+        "libhidlmemory",
+        "libion",
+        "libion_mtk",
+        "liblog",
+        "libm",
+        "libnativewindow",
+        "libpq_prot",
+        "libsync",
+        "libutils",
+        "libutilscallstack",
+        "vendor.mediatek.hardware.pq@2.0",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libdpframework.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libdpframework.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libfile_op",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcustom_nvram",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libnvram",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libfile_op.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libfile_op.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libfp_ext_svc2",
+    shared_libs: [
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.fpsensor.hardware.fpsensorhidlsvc@2.0",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libfp_ext_svc2.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libfp_ext_svc2.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libged",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libnativewindow",
+        "libsync",
+        "libutils",
+        "vendor.mediatek.hardware.gpu@1.0",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libged.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libged.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libglslcompiler",
+    shared_libs: [
+        "libc",
+        "libm",
+        "libsrv_um",
+        "libusc",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libglslcompiler.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libglslcompiler.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libgpu_aux",
+    shared_libs: [
+        "android.hardware.graphics.common@1.0",
+        "android.hardware.graphics.common@1.1",
+        "android.hardware.graphics.common@1.2",
+        "android.hardware.graphics.mapper@2.0",
+        "android.hardware.graphics.mapper@2.1",
+        "android.hardware.graphics.mapper@3.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "libgpud",
+        "libgralloc_extra",
+        "libhardware",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libnativewindow",
+        "libsync",
+        "libutils",
+        "vendor.mediatek.hardware.mms@1.5",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libgpu_aux.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libgpu_aux.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libgpud",
+    shared_libs: [
+        "android.hardware.graphics.common@1.1",
+        "android.hardware.graphics.common@1.2",
+        "android.hardware.graphics.mapper@2.0",
+        "android.hardware.graphics.mapper@2.1",
+        "android.hardware.graphics.mapper@3.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libgralloc_extra",
+        "libhardware",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libnativewindow",
+        "libsync",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libgpud.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libgpud.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libgralloc_extra",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libged",
+        "libhardware",
+        "libion",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libgralloc_extra.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libgralloc_extra.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libhevce_sb.ca7.android",
+    allow_undefined_symbols: true,
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libvcodec_oal",
+        "libvcodec_utility",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libhevce_sb.ca7.android.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libhevce_sb.ca7.android.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libhwc2on1adapter",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libhwc2on1adapter.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libhwc2on1adapter.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libhwc2onfbadapter",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+        "libsync",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libhwc2onfbadapter.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libhwc2onfbadapter.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libhwm",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libfile_op",
+        "liblog",
+        "libm",
+        "libnvram",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libhwm.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libhwm.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libhydra",
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libm",
+        "libstrongswan",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libhydra.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libhydra.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "lib_iir",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/lib_iir.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/lib_iir.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libIMGegl",
+    shared_libs: [
+        "libc",
+        "libged",
+        "libgpud",
+        "libgralloc_extra",
+        "libhardware",
+        "libm",
+        "libsrv_um",
+        "libsync",
+        "libz",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libIMGegl.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libIMGegl.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libimsg_log",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libimsg_log.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libimsg_log.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libion_mtk",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libion",
+        "libion_ulit",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libion_mtk.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libion_mtk.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libion_ulit",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libladder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libion_ulit.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libion_ulit.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libipsec_ims_shr",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcrypto",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libipsec_ims_shr.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libipsec_ims_shr.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libjpeg-alpha-oal_vendor",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libjpeg-alpha-oal_vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libjpeg-alpha-oal_vendor.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libjpeg-alpha_vendor",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libjpeg-alpha-oal_vendor",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libjpeg-alpha_vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libjpeg-alpha_vendor.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libJpgEncPipe",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libion",
+        "libion_mtk",
+        "libjpeg-alpha_vendor",
+        "liblog",
+        "libm",
+        "libutils",
+        "libvcodec_utility",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libJpgEncPipe.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libJpgEncPipe.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libladder",
+    proprietary: true,
+    allow_undefined_symbols: true,
+    target: {
+        android_arm: {
+            srcs: ["lib/libladder.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libladder.so"],
+        },
+    },
+    shared_libs: [
+        "libbase",
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+        "libunwindstack",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "libmemtrack_GL",
+    shared_libs: [
+        "libc",
+        "liblog",
+        "libsrv_um",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmemtrack_GL.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmemtrack_GL.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libminiui",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+        "libpixelflinger",
+        "libpng",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libminiui.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libminiui.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmmprofile",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmmprofile.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmmprofile.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmnetlink_v104",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmnetlink_v104.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmnetlink_v104.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmpvr",
+    shared_libs: ["libc"],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmpvr.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmpvr.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmsbc_mtk",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmsbc_mtk.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmsbc_mtk.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtcloader",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmtcloader.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmtcloader.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtee",
+    shared_libs: [
+        "android.hidl.allocator@1.0",
+        "android.hidl.memory@1.0",
+        "libc",
+        "libc++",
+        "libdl",
+        "libhidlbase",
+        "libhidlmemory",
+        "libhwbinder",
+        "libimsg_log",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.microtrust.hardware.capi@2.0",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmtee.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmtee.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkares",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcares_naptr",
+        "libdl",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmtkares.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmtkares.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_debugutils",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libladder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmtkcam_debugutils.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmtkcam_debugutils.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam.eventcallback",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtkcam_stdutils",
+        "libmtkcam_ulog",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmtkcam.eventcallback.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmtkcam.eventcallback.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_stdutils",
+    allow_undefined_symbols: true,
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libladder",
+        "liblog",
+        "libm",
+        "libmtkcam_ulog",
+        "libsync",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmtkcam_stdutils.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmtkcam_stdutils.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcam_ulog",
+    shared_libs: [
+        "libaedv",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libladder",
+        "liblog",
+        "libm",
+        "libmtkcam_debugutils",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmtkcam_ulog.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmtkcam_ulog.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkcutils",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+        "libmtkrillog",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmtkcutils.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmtkcutils.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtk_drvb",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmtk_drvb.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmtk_drvb.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkhardware_legacy",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmtkhardware_legacy.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmtkhardware_legacy.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtklimiter_vendor",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmtklimiter_vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmtklimiter_vendor.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtknetutils",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+        "libmtkproperty",
+        "libmtkrillog",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmtknetutils.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmtknetutils.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libMtkOmxCore",
+    shared_libs: [
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libion",
+        "liblog",
+        "libm",
+        "libui",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libMtkOmxCore.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libMtkOmxCore.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkperf_client_vendor",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmtkperf_client_vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmtkperf_client_vendor.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkproperty",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+        "libmtkrillog",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmtkproperty.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmtkproperty.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkrillog",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmtkrillog.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmtkrillog.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtkshifter_vendor",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmtkshifter_vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmtkshifter_vendor.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libMtkSpeechEnh",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libMtkSpeechEnh.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libMtkSpeechEnh.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libmtksysutils",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+        "libmtkcutils",
+        "libmtkproperty",
+        "libmtkrillog",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libmtksysutils.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libmtksysutils.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libnbaio_mono",
+    shared_libs: [
+        "libaudioutils",
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libnbaio_mono.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libnbaio_mono.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libneuropilot_hal_utils",
+    proprietary: true,
+    allow_undefined_symbols: true,
+    target: {
+        android_arm: {
+            srcs: ["lib/libneuropilot_hal_utils.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libneuropilot_hal_utils.so"],
+        },
+    }, 
+    shared_libs: [
+        "android.hardware.neuralnetworks@1.0",
+        "android.hardware.neuralnetworks@1.1",
+        "android.hardware.neuralnetworks@1.2",
+        "android.hidl.allocator@1.0",
+        "android.hidl.memory@1.0",
+        "libbase",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidlmemory",
+        "libm",
+        "libnativewindow",
+        "libui",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "libnvram_daemon_callback",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcustom_nvram",
+        "libdl",
+        "liblog",
+        "libm",
+        "libnvram",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libnvram_daemon_callback.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libnvram_daemon_callback.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libnvram_platform",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libnvram_platform.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libnvram_platform.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libnvram_sec",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcustom_nvram",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libnvram_sec.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libnvram_sec.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libnvram",
+    shared_libs: [
+        "libbase",
+        "libc",
+        "libc++",
+        "libcustom_nvram",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libnvram_platform",
+        "libnvram_sec",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libnvram.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libnvram.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libOpenCL",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libOpenCL.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libOpenCL.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libperfctl_vendor",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libexpat",
+        "liblog",
+        "libm",
+        "libui",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libperfctl_vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libperfctl_vendor.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libpixelflinger",
+    proprietary: true,
+    allow_undefined_symbols: true,
+    target: {
+        android_arm: {
+            srcs: ["lib/libpixelflinger.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libpixelflinger.so"],
+        },
+    }, 
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "libpnpmgr",
+    shared_libs: [
+        "android.hardware.power@1.0",
+        "android.hardware.power@1.1",
+        "android.hardware.power@1.2",
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.power@2.0",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libpnpmgr.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libpnpmgr.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libpowerhal",
+    shared_libs: [
+        "android.hardware.power@1.0",
+        "android.hardware.power@1.1",
+        "android.hardware.power@1.2",
+        "android.hardware.power@1.3",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libexpat",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libtinyxml2",
+        "libui",
+        "libutils",
+        "vendor.mediatek.hardware.netdagent@1.0",
+        "vendor.mediatek.hardware.power@2.0",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libpowerhal.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libpowerhal.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libpowerhalwrap_vendor",
+    shared_libs: [
+        "android.hardware.power@1.0",
+        "android.hardware.power@1.1",
+        "android.hardware.power@1.2",
+        "libc",
+        "libc++",
+        "libdl",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+        "vendor.mediatek.hardware.power@2.0",
+        "vendor.mediatek.hardware.power@2.1",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libpowerhalwrap_vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libpowerhalwrap_vendor.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libpq_cust_base",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libdpframework",
+        "liblog",
+        "libm",
+        "libpq_prot",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libpq_cust_base.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libpq_cust_base.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libpq_prot",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libpq_prot.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libpq_prot.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libPVROCL",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libgpud",
+        "libhardware",
+        "liblog",
+        "libm",
+        "libsync",
+        "libz",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libPVROCL.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libPVROCL.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libPVRScopeServices",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+        "libsync",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libPVRScopeServices.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libPVRScopeServices.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "librgbwlightsensor",
+    shared_libs: [
+        "android.frameworks.sensorservice@1.0",
+        "android.hardware.sensors@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "liblog",
+        "libm",
+        "libsensorndkbridge",
+        "libutils",
+        "vendor.mediatek.hardware.pq@2.0",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/librgbwlightsensor.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/librgbwlightsensor.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libsensorndkbridge",
+    shared_libs: [
+        "android.frameworks.sensorservice@1.0",
+        "android.hardware.sensors@1.0",
+        "libbase",
+        "libc",
+        "libc++",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libsensorndkbridge.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libsensorndkbridge.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libsimaka",
+    shared_libs: [
+        "libc",
+        "libm",
+        "libstrongswan",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libsimaka.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libsimaka.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libspeech_enh_lib",
+    proprietary: true,
+    check_elf_files: false,
+    target: {
+        android_arm: {
+            srcs: ["lib/libspeech_enh_lib.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libspeech_enh_lib.so"],
+        },
+    }, 
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+        "lib_speech_enh",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "lib_speech_enh",
+    shared_libs: [
+        "libMtkSpeechEnh",
+        "libaudioutils",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/lib_speech_enh.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/lib_speech_enh.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libspeechparser_vendor",
+    shared_libs: [
+        "libaudioutils",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libmedia_helper",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libspeechparser_vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libspeechparser_vendor.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libsrv_um",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libged",
+        "libladder",
+        "liblog",
+        "libm",
+        "libsync",
+        "libutils",
+        "libutilscallstack",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libsrv_um.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libsrv_um.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libssl-ss",
+    shared_libs: [
+        "libc",
+        "libcrypto-ss",
+        "libcutils",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libssl-ss.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libssl-ss.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libstagefrighthw",
+    shared_libs: [
+        "libbinder",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libui",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libstagefrighthw.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libstagefrighthw.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libstrongswan",
+    shared_libs: [
+        "libc",
+        "libcrypto-ss",
+        "libcurl-ss",
+        "libcutils",
+        "libdl",
+        "libm",
+        "libssl-ss",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libstrongswan.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libstrongswan.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libsysenv",
+    shared_libs: [
+        "libbase",
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libsysenv.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libsysenv.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libTEECommon",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libTEECommon.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libTEECommon.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libthha",
+    proprietary: true,
+    allow_undefined_symbols: true,
+    target: {
+        android_arm: {
+            srcs: ["lib/libthha.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libthha.so"],
+        },
+    }, 
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "libtinycompress",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libtinycompress.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libtinycompress.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libtinyxml",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libtinyxml.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libtinyxml.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libtqvalidate",
+    shared_libs: ["libc"],
+    target: {
+        android_arm: {
+            srcs: ["lib/libtqvalidate.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libtqvalidate.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libudf",
+    proprietary: true,
+    allow_undefined_symbols: true,
+    target: {
+        android_arm: {
+            srcs: ["lib/libudf.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libudf.so"],
+        },
+    }, 
+    shared_libs: [
+        "libbase",
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+        "libunwindstack",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "libufwriter",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libm",
+        "libsrv_um",
+        "libusc",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libufwriter.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libufwriter.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libusc",
+    shared_libs: [
+        "libc",
+        "libm",
+        "libsrv_um",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libusc.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libusc.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libutinterface_custom_md",
+    proprietary: true,
+    allow_undefined_symbols: true,
+    target: {
+        android_arm: {
+            srcs: ["lib/libutinterface_custom_md.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libutinterface_custom_md.so"],
+        },
+    },
+    shared_libs: [
+        "libc",
+        "libdl",
+        "liblog",
+        "libm",
+        "libverno",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "libutinterface_md",
+    shared_libs: [
+        "libc",
+        "libcrypto",
+        "libcurl_xcap_md",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+        "libssl",
+        "libutinterface_custom_md",
+        "libverno",
+        "libxml2",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libutinterface_md.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libutinterface_md.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libvcodec_oal",
+    proprietary: true,
+    allow_undefined_symbols: true,
+    target: {
+        android_arm: {
+            srcs: ["lib/libvcodec_oal.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libvcodec_oal.so"],
+        },
+    },
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "libvcodec_utility",
+    shared_libs: [
+        "libbwc",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libion",
+        "libion_mtk",
+        "liblog",
+        "libm",
+        "libmtk_drvb",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libvcodec_utility.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libvcodec_utility.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libverno",
+    shared_libs: [
+        "libc",
+        "libdl",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libverno.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libverno.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libwo",
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libwo.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libwo.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libwpa_client",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/libwpa_client.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libwpa_client.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libwvhidl",
+    proprietary: true,
+    check_elf_files: false,
+    target: {
+        android_arm: {
+            srcs: ["lib/libwvhidl.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/libwvhidl.so"],
+        },
+    }, 
+    shared_libs: [
+        "android.hardware.drm@1.0",
+        "android.hardware.drm@1.1",
+        "android.hardware.drm@1.2",
+        "android.hidl.memory@1.0",
+        "libbase",
+        "libc",
+        "libc++",
+        "libdl",
+        "libhidlbase",
+        "libhidlmemory",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libprotobuf-cpp-lite",
+        "libutils",
+    ],
+}
+
+cc_prebuilt_library {
+    name: "libmockdrmcryptoplugin",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    relative_install_path: "mediadrm",
+    target: {
+        android_arm: {
+            srcs: ["lib/mediadrm/libmockdrmcryptoplugin.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/mediadrm/libmockdrmcryptoplugin.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "libwvdrmengine",
+    shared_libs: [
+        "libbase",
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+        "libprotobuf-cpp-lite",
+        "libstagefright_foundation",
+        "libutils",
+    ],
+    relative_install_path: "mediadrm",
+    target: {
+        android_arm: {
+            srcs: ["lib/mediadrm/libwvdrmengine.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/mediadrm/libwvdrmengine.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "pblcgc02m1b_mipi_raw_tuning",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/pblcgc02m1b_mipi_raw_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/pblcgc02m1b_mipi_raw_tuning.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "pblcgc02m1_mipi_raw_tuning",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/pblcgc02m1_mipi_raw_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/pblcgc02m1_mipi_raw_tuning.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "pblcgc2375hmain3_mipi_raw_tuning",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/pblcgc2375hmain3_mipi_raw_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/pblcgc2375hmain3_mipi_raw_tuning.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "pblcgc2375h_mipi_raw_tuning",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/pblcgc2375h_mipi_raw_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/pblcgc2375h_mipi_raw_tuning.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "pblcgc6153_serial_yuv_tuning",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/pblcgc6153_serial_yuv_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/pblcgc6153_serial_yuv_tuning.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "pblcgc8034_mipi_raw_tuning",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/pblcgc8034_mipi_raw_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/pblcgc8034_mipi_raw_tuning.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "pblcs5k3p9sx_mipi_raw_tuning",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/pblcs5k3p9sx_mipi_raw_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/pblcs5k3p9sx_mipi_raw_tuning.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "s5k3p9sx_mipi_raw_tuning",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/s5k3p9sx_mipi_raw_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/s5k3p9sx_mipi_raw_tuning.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.fpsensor.hardware.fpsensorhidlsvc@2.0",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.audio@5.1",
+    shared_libs: [
+        "android.hardware.audio.common@5.0",
+        "android.hardware.audio.effect@5.0",
+        "android.hardware.audio@5.0",
+        "android.hidl.safe_union@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.audio@5.1.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.audio@5.1.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.camera.bgservice@1.0",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.camera.bgservice@1.0.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.camera.bgservice@1.1",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.camera.bgservice@1.0",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.camera.bgservice@1.1.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.gpu@1.0",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.gpu@1.0.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.gpu@1.0.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.keymaster_attestation@1.0",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.keymaster_attestation@1.1",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.keymaster_attestation@1.0",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mms@1.0",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.mms@1.0.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.mms@1.0.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mms@1.1",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mms@1.0",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.mms@1.1.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.mms@1.1.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mms@1.2",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mms@1.0",
+        "vendor.mediatek.hardware.mms@1.1",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.mms@1.2.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.mms@1.2.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mms@1.3",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mms@1.0",
+        "vendor.mediatek.hardware.mms@1.1",
+        "vendor.mediatek.hardware.mms@1.2",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.mms@1.3.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.mms@1.3.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mms@1.4",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mms@1.0",
+        "vendor.mediatek.hardware.mms@1.1",
+        "vendor.mediatek.hardware.mms@1.2",
+        "vendor.mediatek.hardware.mms@1.3",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.mms@1.4.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.mms@1.4.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mms@1.5",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.mms@1.0",
+        "vendor.mediatek.hardware.mms@1.1",
+        "vendor.mediatek.hardware.mms@1.2",
+        "vendor.mediatek.hardware.mms@1.3",
+        "vendor.mediatek.hardware.mms@1.4",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.mms@1.5.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.mms@1.5.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mtkcodecservice@1.1",
+    shared_libs: [
+        "android.hidl.memory@1.0",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.mtkcodecservice@1.1.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.mtkcodecservice@1.1.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.mtkpower@1.0",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.mtkpower@1.0.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.mtkpower@1.0.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.netdagent@1.0",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.netdagent@1.0.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.netdagent@1.0.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.nvram@1.0",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.nvram@1.0.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.nvram@1.0.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.nvram@1.1",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.nvram@1.0",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.nvram@1.1.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.nvram@1.1.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.power@2.0",
+    shared_libs: [
+        "android.hardware.power@1.0",
+        "android.hardware.power@1.1",
+        "android.hardware.power@1.2",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.power@2.0.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.power@2.0.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.power@2.1",
+    shared_libs: [
+        "android.hardware.power@1.0",
+        "android.hardware.power@1.1",
+        "android.hardware.power@1.2",
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.power@2.0",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.power@2.1.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.power@2.1.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.pq@2.0",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.pq@2.0.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.pq@2.0.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.pq@2.1",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.pq@2.0",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.pq@2.1.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.pq@2.1.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.pq@2.2",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.pq@2.0",
+        "vendor.mediatek.hardware.pq@2.1",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.pq@2.2.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.pq@2.2.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.pq@2.3",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+        "vendor.mediatek.hardware.pq@2.0",
+        "vendor.mediatek.hardware.pq@2.1",
+        "vendor.mediatek.hardware.pq@2.2",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.pq@2.3.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.pq@2.3.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.mediatek.hardware.videotelephony@1.0",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.mediatek.hardware.videotelephony@1.0.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.mediatek.hardware.videotelephony@1.0.so"],
+        },
+    }, 
+    proprietary: true,
+}
+
+cc_prebuilt_library {
+    name: "vendor.microtrust.hardware.capi@2.0",
+    shared_libs: [
+        "libc",
+        "libc++",
+        "libcutils",
+        "libdl",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "liblog",
+        "libm",
+        "libutils",
+    ],
+    target: {
+        android_arm: {
+            srcs: ["lib/vendor.microtrust.hardware.capi@2.0.so"],
+        },
+        android_arm64: {
+            srcs: ["lib64/vendor.microtrust.hardware.capi@2.0.so"],
+        },
+    }, 
+    proprietary: true,
+}
