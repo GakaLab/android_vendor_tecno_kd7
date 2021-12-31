@@ -1,5 +1,4 @@
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES 			:= true
-PRODUCT_EXTRA_VNDK_VERSIONS				:= 29
 
 # GAPPS
 GAPPS_VARIANT						:= mini
@@ -27,7 +26,10 @@ GAPPS_PRODUCT_PACKAGES					:= \
     WebViewGoogle
 
 GAPPS_EXCLUDED_PACKAGES					:= \
-    Hangouts
+    Hangouts \
+    YouTubeLeanback \
+    YouTube \
+    Maps
 #    EditorsSheets \
 #    EditorsSlides \
 #    Books \
@@ -115,7 +117,7 @@ PRODUCT_PACKAGES += SensorHub EngineerMode libem_camera_jni libem_sensor_jni \
     pblcgc2375h_mipi_raw_tuning pblcgc6153_serial_yuv_IdxMgr pblcgc6153_serial_yuv_tuning \
     pblcgc8034_mipi_raw_IdxMgr pblcgc8034_mipi_raw_tuning pblcs5k3p9sx_mipi_raw_IdxMgr \
     pblcs5k3p9sx_mipi_raw_tuning s5k3p9sx_mipi_raw_IdxMgr s5k3p9sx_mipi_raw_tuning \
-    libmtkcam_streaminfo_plugin-p1stt
+    libmtkcam_streaminfo_plugin-p1stt busybox
 
 # Codecs
 PRODUCT_PACKAGES += \
@@ -328,7 +330,7 @@ PRODUCT_PACKAGES += \
     thermal_policy_03 thermal_policy_05 throttle.sh UplinkConfiguration_AudioParam.xml \
     UplinkConfiguration_ParamUnitDesc.xml usb_audio_policy_configuration.xml \
     USBCall_AudioParam.xml USBCall_ParamUnitDesc.xml USBDevice_AudioParam.xml USBDevice_ParamUnitDesc.xml \
-    vendor-apns-conf.xml vendor.fpsensor.rc vendor.mediatek.hardware.gpu@1.0-service.rc \
+    vendor.fpsensor.rc vendor.mediatek.hardware.gpu@1.0-service.rc \
     vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc vendor.mediatek.hardware.log@1.0-service.rc \
     vendor.mediatek.hardware.mms@1.5-service.rc vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc \
     vendor.mediatek.hardware.mtkpower@1.0-init.rc vendor.mediatek.hardware.mtkpower@1.0-service.rc \
