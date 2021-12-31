@@ -6,5 +6,5 @@ android_app_import {
     },
     default_dev_cert: true,
     privileged: true,
-    vendor: true,
+    //vendor: true,
 }

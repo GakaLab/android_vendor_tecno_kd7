@@ -2,6 +2,7 @@
 *  kernel modules
 */
 
+/*
 prebuilt_kernel_modules {
     name: "met",
     srcs: ["met.ko"],
@@ -43,3 +44,4 @@ prebuilt_kernel_modules {
     srcs: ["wlan_drv_gen4m.ko"],
     vendor: true,
 }
+*/

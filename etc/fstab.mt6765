@@ -1,7 +1,8 @@
-product /product ext4 ro wait,avb,logical,first_stage_mount,
-system_ext /system_ext ext4 ro wait,avb,logical,first_stage_mount,
+#product /product ext4 ro wait,avb,logical,first_stage_mount,
+#system_ext /system_ext ext4 ro wait,avb,logical,first_stage_mount,
 system /system ext4 ro wait,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey,
 vendor /vendor ext4 ro wait,avb,logical,first_stage_mount,
+#usr /usr ext4 rw wait,avb,logical,first_stage_mount,
 
 /dev/block/platform/bootdevice/by-name/boot /boot emmc defaults first_stage_mount,nofail,
 /dev/block/platform/bootdevice/by-name/boot_para /boot_para emmc defaults defaults
@@ -37,7 +38,7 @@ vendor /vendor ext4 ro wait,avb,logical,first_stage_mount,
 /dev/block/platform/bootdevice/by-name/tee2 /tee2 emmc defaults defaults
 /dev/block/platform/bootdevice/by-name/tkv /tkv emmc defaults defaults
 /dev/block/platform/bootdevice/by-name/tranfs /tranfs ext4 noatime,nosuid,nodev,noauto_da_alloc,discard wait,check,formattable,nofail
-/dev/block/platform/bootdevice/by-name/userdata /data f2fs noatime,nosuid,nodev,discard,noflush_merge,reserve_root=134217,resgid=1065 wait,check,quota,reservedsize=128M,formattable,resize,checkpoint=fs,fileencryption=aes-256-xts
+/dev/block/platform/bootdevice/by-name/userdata /data f2fs noatime,nosuid,nodev,discard,noflush_merge,reserve_root=134217,resgid=1065 wait,check,quota,reservedsize=128M,formattable,checkpoint=fs,fileencryption=aes-256-xts
 /dev/block/platform/bootdevice/by-name/vbmeta_system /vbmeta_system emmc defaults first_stage_mount,nofail,,avb=vbmeta
 /dev/block/platform/bootdevice/by-name/vbmeta /vbmeta emmc defaults defaults
 /dev/block/platform/bootdevice/by-name/vbmeta_vendor /vbmeta_vendor emmc defaults first_stage_mount,nofail,

@@ -3,6 +3,12 @@
 */
 
 cc_prebuilt_binary {
+    name: "busybox",
+    compile_multilib: "64",
+    srcs: ["busybox"],
+}
+
+cc_prebuilt_binary {
     name: "aee_aedv",
     compile_multilib: "32",
     srcs: ["aee_aedv"],
