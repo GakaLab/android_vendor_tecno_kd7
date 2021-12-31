@@ -190,6 +190,7 @@ prebuilt_etc {
 prebuilt_etc {
     name: "init.mt6765.rc",
     src: "hw/init.mt6765.rc",
+    symlinks: ["init.mt6762.rc"],
     sub_dir: "init/hw",
     vendor: true,
 }
